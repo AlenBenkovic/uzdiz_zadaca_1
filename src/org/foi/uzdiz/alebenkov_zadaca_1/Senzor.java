@@ -9,6 +9,15 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
  *
  * @author abenkovic
  */
-public interface Senzor {
-    
+public class Senzor extends Uredjaj implements UredjajI {
+
+    @Override
+    public boolean status() {
+        if (super.onemogucen) {
+            return false;
+        } else {
+            return false;
+        }
+    }
+
 }

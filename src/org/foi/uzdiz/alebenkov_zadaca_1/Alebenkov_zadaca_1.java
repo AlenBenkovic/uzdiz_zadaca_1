@@ -5,6 +5,8 @@
  */
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
+import java.io.IOException;
+
 /**
  *
  * @author abenkovic
@@ -14,11 +16,11 @@ public class Alebenkov_zadaca_1 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {        
+    public static void main(String[] args) {
         ToF tof = new ToF.ToFBuilder(args)
                 .inicijalizacija()
                 .build();
-        
+
     }
-    
+
 }
