@@ -9,6 +9,28 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
  *
  * @author abenkovic
  */
-public interface Mjesto {
+public class Mjesto {
+
+    private static volatile Mjesto INSTANCE;
+    private Uredjaj[] uredjaji = null;
+
+    private Mjesto() {
+    }
+
+    public static synchronized Mjesto getInstance() {
+        if (INSTANCE == null) {
+            synchronized (Mjesto.class) {
+                if (INSTANCE == null) {
+                    INSTANCE = new Mjesto();
+                }
+            }
+        }
+        return INSTANCE;
+    }
+
+
     
+    
+
+
 }

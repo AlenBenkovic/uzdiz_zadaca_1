@@ -71,6 +71,12 @@ public class ToF {
 
         public ToFBuilder inicijalizacija() {
             System.out.println("Inicijalizacija");
+            Uredjaj senzor1 = new Senzor();
+            Uredjaj aktuator1 = new Aktuator();
+            senzor1.setBrojProvjera(5);
+            System.out.println(senzor1.brojProvjera);
+            System.out.println(aktuator1.brojProvjera);
+
             return this;
         }
 

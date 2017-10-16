@@ -9,8 +9,10 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
  *
  * @author abenkovic
  */
-public interface UredjajI {
+public interface AbstractFactory {
     
-    public boolean status();
+    Mjesto kreirajMjesto();
+    Uredjaj kreirajSenzor();
+    Uredjaj kreirajAktuator();
     
 }
