@@ -5,7 +5,6 @@
  */
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
-import java.util.Random;
 
 /**
  *
@@ -17,7 +16,6 @@ public class Alebenkov_zadaca_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double random = new Random(540).nextDouble();
         ToF tof = new ToF.ToFBuilder(args)
                 .inicijalizacija()
                 .build();
