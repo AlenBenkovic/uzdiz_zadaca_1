@@ -23,6 +23,15 @@ public abstract class Uredjaj {
     public boolean onemogucen = false;
     public int brojProvjera = 0;
 
+    public Uredjaj(String naziv, int tip, int vrsta, float min, float max, String komentar) {
+        this.naziv = naziv;
+        this.tip = tip;
+        this.vrsta = vrsta;
+        this.min = min;
+        this.max = max;
+        this.komentar = komentar;
+    }
+
     public boolean isOnemogucen() {
         return onemogucen;
     }

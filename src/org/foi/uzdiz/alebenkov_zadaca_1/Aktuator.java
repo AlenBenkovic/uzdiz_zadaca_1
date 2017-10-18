@@ -11,9 +11,8 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
  */
 public class Aktuator extends Uredjaj {
 
-    public boolean status() {
-        return false;
+    public Aktuator(String naziv, int tip, int vrsta, float min, float max, String komentar) {
+        super(naziv, tip, vrsta, min, max, komentar);
     }
-    
 
 }

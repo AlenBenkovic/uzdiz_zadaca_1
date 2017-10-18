@@ -66,18 +66,15 @@ public class ToF {
         public ToFBuilder postaviUredjaje() {
 
             AbstractFactory factory = new ToFFactory(this.podaci);
+            //dva mjesta ne mogu se nikako pojaviti zbog HashMape
             for (String nazivMjesta: this.podaci.get("mjesta").keySet()){
                 this.mjesta.put(nazivMjesta, factory.kreirajMjesto(nazivMjesta));
             }
-           
             return this;
         }
 
         public ToFBuilder inicijalizacija() {
             System.out.println("Inicijalizacija");
-            Uredjaj senzor1 = new Senzor();
-            Uredjaj aktuator1 = new Aktuator();
-            senzor1.setBrojProvjera(5);
 
             return this;
         }

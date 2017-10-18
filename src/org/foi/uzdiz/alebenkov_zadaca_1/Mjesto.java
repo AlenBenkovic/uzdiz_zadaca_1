@@ -12,18 +12,19 @@ import java.util.HashMap;
  * @author abenkovic
  */
 public class Mjesto {
-    private String naziv;
-    private int tip;
-    private int brojSenzora;
-    private int brojAktuatora;
-    private HashMap<String, Senzor> senzor;
-    private HashMap<String, Aktuator> aktuator;
+    public String naziv;
+    public int tip;
+    public int brojSenzora;
+    public int brojAktuatora;
+    public HashMap<String, Senzor> senzor = new HashMap<>();
+    public HashMap<String, Aktuator> aktuator = new HashMap<>();
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.naziv = naziv;
         this.tip = tip;
         this.brojSenzora = brojSenzora;
         this.brojAktuatora = brojAktuatora;
+        System.out.println(naziv + tip + brojSenzora + brojAktuatora);
     }
 
     public Senzor getSenzor(String naziv) {

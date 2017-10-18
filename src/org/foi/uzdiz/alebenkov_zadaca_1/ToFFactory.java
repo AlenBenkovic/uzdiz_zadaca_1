@@ -13,23 +13,38 @@ import java.util.HashMap;
  */
 public class ToFFactory implements AbstractFactory {
 
-    HashMap<String, HashMap<String, String[]>> podaci;
+    HashMap<String, String[]> mjesta;
+    HashMap<String, String[]> senzori;
+    HashMap<String, String[]> aktuatori;
 
     public ToFFactory(HashMap<String, HashMap<String, String[]>> podaci) {
-        this.podaci = podaci;
         System.out.println("Konstruktor ToF Factory-a");
+
+        this.mjesta = (HashMap<String, String[]>) podaci.get("mjesta").clone();
+        this.senzori = podaci.get("senzori");
+        this.aktuatori = podaci.get("aktuatori");
     }
 
     @Override
     public Mjesto kreirajMjesto(String nazivMjesta) {
+        Mjesto mjesto = null;
         System.out.println("Builder: Kreiram mjesto " + nazivMjesta);
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-
+        String[] podaciOmjestu = this.mjesta.get(nazivMjesta);
+        mjesto = new Mjesto(nazivMjesta, Integer.parseInt(podaciOmjestu[1]), Integer.parseInt(podaciOmjestu[2]), Integer.parseInt(podaciOmjestu[3]));
+        for (int i = 0; i < mjesto.brojSenzora; i++) {
+            mjesto.setSenzor(kreirajSenzor(mjesto.tip));
+        }
+        return mjesto;
     }
 
     @Override
-    public Uredjaj kreirajSenzor() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Senzor kreirajSenzor(int tip) {
+        for (String[] value: this.senzori.values()){
+            if(Integer.parseInt(value[1]) == tip || Integer.parseInt(value[1]) == 2){
+                return new Senzor(value[0], Integer.parseInt(value[1]), Integer.parseInt(value[2]), Float.parseFloat(value[3]), Float.parseFloat(value[4]),value[5]);
+            }
+        }
+        return null;
     }
 
     @Override

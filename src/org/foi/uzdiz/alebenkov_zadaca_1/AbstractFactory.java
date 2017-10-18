@@ -12,7 +12,7 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
 public interface AbstractFactory {
     
     Mjesto kreirajMjesto(String mjesto);
-    Uredjaj kreirajSenzor();
+    Uredjaj kreirajSenzor(int tip);
     Uredjaj kreirajAktuator();
     
 }
