@@ -12,10 +12,12 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
 public class ToFFactory implements AbstractFactory {
 
     public ToFFactory() {
+        System.out.println("Konstruktor ToF Factory-a");
     }
 
     @Override
     public Mjesto kreirajMjesto() {
+        System.out.println("Kreiram mjesto");
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

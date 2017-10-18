@@ -17,6 +17,7 @@ public class Alebenkov_zadaca_1 {
      */
     public static void main(String[] args) {
         ToF tof = new ToF.ToFBuilder(args)
+                .postaviUredjaje()
                 .inicijalizacija()
                 .build();
 
