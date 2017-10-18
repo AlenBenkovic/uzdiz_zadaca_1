@@ -8,10 +8,7 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  *
@@ -19,17 +16,14 @@ import java.util.Map;
  */
 public class ToF {
 
-    Mjesto[] mjesta = null;
-    Aktuator[] aktuatori = null;
-    Senzor[] senzori = null;
-
     public ToF(ToFBuilder builder) {
         System.out.println("Kreiram ToF");
     }
 
     public static class ToFBuilder {
 
-        HashMap<String, ArrayList<String[]>> podaci = new HashMap<String, ArrayList<String[]>>();
+        HashMap<String, HashMap<String, String[]>> podaci = new HashMap<>();
+        HashMap<String, Mjesto> mjesta = new HashMap<>();
 
         public ToFBuilder(String[] args) {
             System.out.println("Konstruktor ToF buildera");
@@ -42,17 +36,13 @@ public class ToF {
             System.out.println("Ucitavam mjesta...");
             this.podaci.put("mjesta", this.ucitajPodatke(args[1]));
 
-            ArrayList<String[]> senzori = this.podaci.get("senzori");
-            
-            senzori.forEach(data -> { System.out.println(data[0]);});
-
         }
 
-        private ArrayList<String[]> ucitajPodatke(String lokacija) {
+        private HashMap<String, String[]> ucitajPodatke(String lokacija) {
             try {
                 FileReader fr = new FileReader(lokacija);
                 BufferedReader br = new BufferedReader(fr);
-                ArrayList<String[]> podaci = new ArrayList<String[]>();
+                HashMap<String, String[]> podaci = new HashMap<>();
                 String s;
                 int brojAtributa = 0;
                 while ((s = br.readLine()) != null) {
@@ -60,7 +50,7 @@ public class ToF {
                     if (brojAtributa == 0) { //prva linija je sam opis podataka i ona je mjerodavna za broj atributa
                         brojAtributa = podatak.length;
                     } else if (podatak.length == brojAtributa) {
-                        podaci.add(podatak);
+                        podaci.put(podatak[0], podatak);
 
                     } else {
                         //ne valja ispisi poruku i spremi
@@ -72,14 +62,16 @@ public class ToF {
                 return null;
             }
         }
-        
-        public ToFBuilder postaviUredjaje(){
-            AbstractFactory factory = new ToFFactory();
-            Mjesto mjesta = factory.kreirajMjesto();
-            
+
+        public ToFBuilder postaviUredjaje() {
+
+            AbstractFactory factory = new ToFFactory(this.podaci);
+            for (String nazivMjesta: this.podaci.get("mjesta").keySet()){
+                this.mjesta.put(nazivMjesta, factory.kreirajMjesto(nazivMjesta));
+            }
+           
             return this;
         }
-        
 
         public ToFBuilder inicijalizacija() {
             System.out.println("Inicijalizacija");

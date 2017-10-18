@@ -11,7 +11,7 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
  */
 public interface AbstractFactory {
     
-    Mjesto kreirajMjesto();
+    Mjesto kreirajMjesto(String mjesto);
     Uredjaj kreirajSenzor();
     Uredjaj kreirajAktuator();
     
