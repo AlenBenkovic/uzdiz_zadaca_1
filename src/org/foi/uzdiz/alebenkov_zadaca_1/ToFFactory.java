@@ -134,8 +134,9 @@ public class ToFFactory implements AbstractFactory {
         Random rn = new Random();
         int randomBroj = rn.nextInt(prihvatljiviSenzori.size());
         int indexSenzora = prihvatljiviSenzori.get(randomBroj);
+        Uredjaj odabrani = this.senzori.get(indexSenzora);
 
-        return this.senzori.get(indexSenzora);
+        return (Senzor) odabrani.clone();
 
     }
 
@@ -152,8 +153,9 @@ public class ToFFactory implements AbstractFactory {
         Random rn = new Random();
         int randomBroj = rn.nextInt(prihvatljiviAktuatori.size());
         int indexAktuatora = prihvatljiviAktuatori.get(randomBroj);
+        Uredjaj odabrani = this.aktuatori.get(indexAktuatora);
 
-        return this.aktuatori.get(indexAktuatora);
+        return (Aktuator) odabrani.clone();
 
     }
 

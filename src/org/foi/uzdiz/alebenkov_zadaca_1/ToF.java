@@ -41,9 +41,9 @@ public class ToF {
         public ToFBuilder inicijalizacija() {
             System.out.println("Inicijalizacija");
             for (Mjesto mjesto : this.mjesta.values()) {
-                System.out.println(mjesto.naziv);
+                System.out.println("Inicijaliziram uredjaje za " + mjesto.naziv);
                 for (Senzor senzor : mjesto.senzori) {
-                    if (!senzor.getStatus()) {
+                    if (!senzor.inicijalizacija()) {
                         senzor.setOnemogucen(true);
                          System.out.println(senzor.naziv + " FAILED");
                     } else {
@@ -52,7 +52,7 @@ public class ToF {
                 }
 
                 for (Aktuator aktuator : mjesto.aktuatori) {
-                    if (!aktuator.getStatus()) {
+                    if (!aktuator.inicijalizacija()) {
                         aktuator.setOnemogucen(true);
                          System.out.println(aktuator.naziv + " FAILED");
                     } else {
@@ -61,6 +61,7 @@ public class ToF {
                 }
                 
                 mjesto.makniOnemogucene();
+                System.out.println("------------------------------------------");
             }
 
             return this;

@@ -11,7 +11,7 @@ import java.util.Random;
  *
  * @author abenkovic
  */
-public abstract class Uredjaj {
+public abstract class Uredjaj implements Cloneable {
 
     public String naziv;
     public int tip;
@@ -48,7 +48,7 @@ public abstract class Uredjaj {
         this.brojProvjera = brojProvjera;
     }
 
-    public boolean getStatus() {
+    public boolean inicijalizacija() {
         Random rn = new Random();
         int random = rn.nextInt(101);
         if (random < 90) {
@@ -56,6 +56,19 @@ public abstract class Uredjaj {
         } else {
             return false;
         }
+    }
+
+    public Object clone() {
+        Object clone = null;
+
+        try {
+            clone = super.clone();
+
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+
+        return clone;
     }
 
 }
