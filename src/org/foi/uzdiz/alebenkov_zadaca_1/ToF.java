@@ -7,7 +7,8 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
+import java.util.Map;
+import static jdk.nashorn.internal.objects.NativeArray.map;
 
 /**
  *
@@ -43,7 +44,7 @@ public class ToF {
             for (Mjesto mjesto : this.mjesta.values()) {
                 System.out.println("##Inicijaliziram uredjaje za " + mjesto.naziv);
                 for (Senzor senzor : mjesto.senzori) {
-                    if (!senzor.inicijalizacija(Integer.parseInt(this.args[0]))) {
+                    if (!senzor.inicijalizacija()) {
                         senzor.setOnemogucen(true);
                         System.out.println(senzor.naziv + " FAILED");
                     } else {
@@ -52,7 +53,7 @@ public class ToF {
                 }
 
                 for (Aktuator aktuator : mjesto.aktuatori) {
-                    if (!aktuator.inicijalizacija(Integer.parseInt(this.args[0]))) {
+                    if (!aktuator.inicijalizacija()) {
                         aktuator.setOnemogucen(true);
                         System.out.println(aktuator.naziv + " FAILED");
                     } else {
@@ -76,17 +77,20 @@ public class ToF {
                         i++;
                         Thread.sleep(Integer.parseInt(this.args[5]) * 1000);
                         System.out.println("Dretva nesta radi...");
+                        HashMap<String, Senzor> senzoriZamjena = new HashMap<>();
+
                         for (Mjesto mjesto : this.mjesta.values()) {
                             System.out.println("##Radim provjeru uredjaja za " + mjesto.naziv);
-                            for (Iterator<Uredjaj> iterator = this.senzori.iterator(); iterator.hasNext();) {
-                                Uredjaj senzor = iterator.next();
+                            for (Senzor senzor : mjesto.senzori) {
+
                                 System.out.println("------------------------------");
                                 System.out.println(senzor.naziv);
                                 System.out.println(senzor.getStatus());
                                 System.out.println(senzor.neuspjesneProvjere);
                                 if (senzor.neuspjesneProvjere == 3) {
-                                    System.out.println("*******GASIM****** " + senzor.naziv);
-                                    iterator.remove();
+
+                                    senzoriZamjena.put(mjesto.naziv, senzor);
+
                                 }
 
                             }
@@ -94,6 +98,23 @@ public class ToF {
                             for (Aktuator aktuator : mjesto.aktuatori) {
 
                             }
+
+                        }
+
+                        for (Map.Entry<String, Senzor> entry : senzoriZamjena.entrySet()) {
+
+                            String mjesto = entry.getKey();
+                            Senzor stari = entry.getValue();
+                            
+                            System.out.println("*******GASIM****** " + stari.naziv);
+                            this.mjesta.get(mjesto).removeSenzor(stari);
+                            
+                            Uredjaj noviSenzor = (Senzor) stari.clone();
+                            noviSenzor.inicijalizacija();
+                            System.out.println("****DODAJEM NOVI****" + noviSenzor.naziv);
+                            this.mjesta.get(mjesto).setSenzor((Senzor) noviSenzor);
+
+                            
 
                         }
                     } catch (InterruptedException ex) {

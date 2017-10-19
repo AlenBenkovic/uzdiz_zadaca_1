@@ -36,6 +36,15 @@ public class Mjesto {
     public void setAktuator(Aktuator aktuator) {
         this.aktuatori.add(aktuator);
     }
+    
+    public void removeSenzor(Senzor senzor){
+        System.out.println("Brisem " + senzor.naziv);
+        this.senzori.remove(senzor);
+    }    
+    
+    public void removeAktuator(Aktuator aktuator){
+        this.senzori.remove(aktuator);
+    } 
 
     public void makniOnemogucene() {
         for (Iterator<Senzor> iterator = senzori.iterator(); iterator.hasNext();) {

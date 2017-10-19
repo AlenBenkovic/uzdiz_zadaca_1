@@ -51,8 +51,9 @@ public abstract class Uredjaj implements Cloneable {
         return random < 90;
     }
 
-    public boolean inicijalizacija(int seed) {
-        //zasto i kako pravilno koristiti seed???
+    public boolean inicijalizacija() {
+        this.onemogucen = false;
+        this.neuspjesneProvjere = 0;
         Random rn = new Random();
         int random = rn.nextInt(101);
         return random < 90;
