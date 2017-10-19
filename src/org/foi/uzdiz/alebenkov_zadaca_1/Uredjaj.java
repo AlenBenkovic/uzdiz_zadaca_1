@@ -21,7 +21,7 @@ public abstract class Uredjaj implements Cloneable {
     public String komentar;
 
     public boolean onemogucen = false;
-    public int brojProvjera = 0;
+    public int neuspjesneProvjere = 0;
 
     public Uredjaj(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         this.naziv = naziv;
@@ -40,32 +40,31 @@ public abstract class Uredjaj implements Cloneable {
         this.onemogucen = onemogucen;
     }
 
-    public int getBrojProvjera() {
-        return brojProvjera;
-    }
 
-    public void setBrojProvjera(int brojProvjera) {
-        this.brojProvjera = brojProvjera;
-    }
-
-    public boolean inicijalizacija() {
+    public boolean getStatus() {
         Random rn = new Random();
         int random = rn.nextInt(101);
-        if (random < 90) {
-            return true;
-        } else {
-            return false;
+        if (random >= 90) {
+            this.neuspjesneProvjere++;
+
         }
+        return random < 90;
     }
 
+    public boolean inicijalizacija(int seed) {
+        //zasto i kako pravilno koristiti seed???
+        Random rn = new Random();
+        int random = rn.nextInt(101);
+        return random < 90;
+    }
+
+    @Override
     public Object clone() {
         Object clone = null;
 
         try {
             clone = super.clone();
-
         } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
         }
 
         return clone;
