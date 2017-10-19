@@ -5,19 +5,22 @@
  */
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 
 /**
  *
  * @author abenkovic
  */
 public class Mjesto {
+
     public String naziv;
     public int tip;
     public int brojSenzora;
     public int brojAktuatora;
-    public HashMap<String, Senzor> senzori = new HashMap<>();
-    public HashMap<String, Aktuator> aktuatori = new HashMap<>();
+    public ArrayList<Senzor> senzori = new ArrayList<>();
+    public ArrayList<Aktuator> aktuatori = new ArrayList<>();
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.naziv = naziv;
@@ -26,22 +29,32 @@ public class Mjesto {
         this.brojAktuatora = brojAktuatora;
     }
 
-    public Senzor getSenzor(String naziv) {
-        return senzori.get(naziv);
-    }
-
-    public Aktuator getAktuator(String naziv) {
-        return aktuatori.get(naziv);
-    }
-
     public void setSenzor(Senzor senzor) {
-        this.senzori.put(senzor.naziv, senzor);
+        this.senzori.add(senzor);
     }
 
     public void setAktuator(Aktuator aktuator) {
-        this.aktuatori.put(aktuator.naziv, aktuator);
+        this.aktuatori.add(aktuator);
     }
-           
-    
+
+    public void makniOnemogucene() {
+        for (Iterator<Senzor> iterator = senzori.iterator(); iterator.hasNext();) {
+            Senzor next = iterator.next();
+            if (next.onemogucen) {
+                System.out.println("Brišem " + next.naziv);
+                iterator.remove();
+            }
+
+        }
+
+        for (Iterator<Aktuator> iterator = aktuatori.iterator(); iterator.hasNext();) {
+            Aktuator next = iterator.next();
+            if (next.onemogucen) {
+                System.out.println("Brišem " + next.naziv);
+                iterator.remove();
+            }
+
+        }
+    }
 
 }

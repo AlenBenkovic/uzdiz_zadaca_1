@@ -49,8 +49,9 @@ public abstract class Uredjaj {
     }
 
     public boolean getStatus() {
-        double random = new Random(540).nextDouble();
-        if (random < 0.9) {
+        Random rn = new Random();
+        int random = rn.nextInt(101);
+        if (random < 90) {
             return true;
         } else {
             return false;

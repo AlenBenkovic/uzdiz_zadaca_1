@@ -42,17 +42,25 @@ public class ToF {
             System.out.println("Inicijalizacija");
             for (Mjesto mjesto : this.mjesta.values()) {
                 System.out.println(mjesto.naziv);
-                for (Senzor senzor : mjesto.senzori.values()) {
+                for (Senzor senzor : mjesto.senzori) {
                     if (!senzor.getStatus()) {
                         senzor.setOnemogucen(true);
+                         System.out.println(senzor.naziv + " FAILED");
+                    } else {
+                        System.out.println(senzor.naziv + " OK");
                     }
                 }
 
-                for (Aktuator aktuator : mjesto.aktuatori.values()) {
+                for (Aktuator aktuator : mjesto.aktuatori) {
                     if (!aktuator.getStatus()) {
                         aktuator.setOnemogucen(true);
+                         System.out.println(aktuator.naziv + " FAILED");
+                    } else {
+                        System.out.println(aktuator.naziv + " OK");
                     }
                 }
+                
+                mjesto.makniOnemogucene();
             }
 
             return this;
