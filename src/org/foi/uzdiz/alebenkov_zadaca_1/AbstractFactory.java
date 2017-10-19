@@ -23,5 +23,7 @@ public interface AbstractFactory {
     Uredjaj kreirajSenzor(String[] senzor);
 
     Uredjaj kreirajAktuator(String[] aktuator);
+    
+    ArrayList<String[]> ucitajPopisUredjaja(String lokacija, boolean isSenzor);
 
 }

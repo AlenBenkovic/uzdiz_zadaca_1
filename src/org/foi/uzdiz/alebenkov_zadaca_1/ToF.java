@@ -32,10 +32,9 @@ public class ToF {
 
         public ToFBuilder postaviUredjaje() {
             AbstractFactory factory = new ToFFactory();
-            this.senzori = factory.kreirajUredjaje(this.args[2], true);
-            this.aktuatori = factory.kreirajUredjaje(this.args[3], false);
-            this.mjesta = factory.kreirajMjesta(this.args[1]);
-
+            factory.ucitajPopisUredjaja(this.args[2], true); // ucitavam popis senzora
+            factory.ucitajPopisUredjaja(this.args[3], false); // ucitavam popis aktuatora
+            this.mjesta = factory.kreirajMjesta(this.args[1]); // kreiram mjesta i dodjeljujem uredjaje
             return this;
         }
 

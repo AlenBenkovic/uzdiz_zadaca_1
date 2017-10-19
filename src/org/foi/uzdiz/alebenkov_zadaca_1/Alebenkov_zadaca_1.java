@@ -16,11 +16,11 @@ public class Alebenkov_zadaca_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // builder pattern nepotreban ali za probu malo :)
         ToF tof = new ToF.ToFBuilder(args)
                 .postaviUredjaje()
                 .inicijalizacija()
                 .build();
-
     }
     
 
