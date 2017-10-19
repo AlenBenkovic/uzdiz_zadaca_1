@@ -130,14 +130,20 @@ public class ToFFactory implements AbstractFactory {
             }
             i++;
         }
-        Random rn = new Random();
-        int randomBroj = rn.nextInt(prihvatljiviSenzori.size());
-        int indexSenzora = prihvatljiviSenzori.get(randomBroj);
 
-        this.senzori.remove(indexSenzora);
-        prihvatljiviSenzori.remove(randomBroj);
+        if (prihvatljiviSenzori.size() != 0) {
+            Random rn = new Random();
+            int randomBroj = rn.nextInt(prihvatljiviSenzori.size());
+            int indexSenzora = prihvatljiviSenzori.get(randomBroj);
 
-        return this.senzori.get(indexSenzora);
+            this.senzori.remove(indexSenzora);
+            prihvatljiviSenzori.remove(randomBroj);
+            return this.senzori.get(indexSenzora);
+
+        }
+
+        return null;
+
     }
 
     private Aktuator dohvatiRandomAktuator(int tip) {
@@ -149,14 +155,20 @@ public class ToFFactory implements AbstractFactory {
             }
             i++;
         }
-        Random rn = new Random();
-        int randomBroj = rn.nextInt(prihvatljiviAktuatori.size());
-        int indexAktuatora = prihvatljiviAktuatori.get(randomBroj);
 
-        this.senzori.remove(indexAktuatora);
-        prihvatljiviAktuatori.remove(randomBroj);
+        if (prihvatljiviAktuatori.size() != 0) {
+            Random rn = new Random();
+            int randomBroj = rn.nextInt(prihvatljiviAktuatori.size());
+            int indexAktuatora = prihvatljiviAktuatori.get(randomBroj);
 
-        return this.aktuatori.get(indexAktuatora);
+            this.aktuatori.remove(indexAktuatora);
+            prihvatljiviAktuatori.remove(randomBroj);
+
+            return this.aktuatori.get(indexAktuatora);
+        }
+
+        return null;
+
     }
 
 }
