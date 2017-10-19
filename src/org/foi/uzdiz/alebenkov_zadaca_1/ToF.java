@@ -29,23 +29,31 @@ public class ToF {
             this.args = args;
         }
 
-        
-
         public ToFBuilder postaviUredjaje() {
             AbstractFactory factory = new ToFFactory();
             this.senzori = factory.kreirajUredjaje(this.args[2], true);
             this.aktuatori = factory.kreirajUredjaje(this.args[3], false);
             this.mjesta = factory.kreirajMjesta(this.args[1]);
 
-            //dva mjesta ne mogu se nikako pojaviti zbog HashMape
-            //for (String nazivMjesta : this.podaci.get("mjesta").keySet()) {
-                //this.mjesta.put(nazivMjesta, factory.kreirajMjesto(nazivMjesta));
-            //}
             return this;
         }
 
         public ToFBuilder inicijalizacija() {
             System.out.println("Inicijalizacija");
+            for (Mjesto mjesto : this.mjesta.values()) {
+                System.out.println(mjesto.naziv);
+                for (Senzor senzor : mjesto.senzori.values()) {
+                    if (!senzor.getStatus()) {
+                        senzor.setOnemogucen(true);
+                    }
+                }
+
+                for (Aktuator aktuator : mjesto.aktuatori.values()) {
+                    if (!aktuator.getStatus()) {
+                        aktuator.setOnemogucen(true);
+                    }
+                }
+            }
 
             return this;
         }

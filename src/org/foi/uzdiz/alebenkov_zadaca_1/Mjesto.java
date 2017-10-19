@@ -16,8 +16,8 @@ public class Mjesto {
     public int tip;
     public int brojSenzora;
     public int brojAktuatora;
-    public HashMap<String, Senzor> senzor = new HashMap<>();
-    public HashMap<String, Aktuator> aktuator = new HashMap<>();
+    public HashMap<String, Senzor> senzori = new HashMap<>();
+    public HashMap<String, Aktuator> aktuatori = new HashMap<>();
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.naziv = naziv;
@@ -27,21 +27,21 @@ public class Mjesto {
     }
 
     public Senzor getSenzor(String naziv) {
-        return senzor.get(naziv);
+        return senzori.get(naziv);
     }
 
     public Aktuator getAktuator(String naziv) {
-        return aktuator.get(naziv);
+        return aktuatori.get(naziv);
     }
 
     public void setSenzor(Senzor senzor) {
-        this.senzor.put(senzor.naziv, senzor);
+        this.senzori.put(senzor.naziv, senzor);
     }
 
     public void setAktuator(Aktuator aktuator) {
-        this.aktuator.put(aktuator.naziv, aktuator);
+        this.aktuatori.put(aktuator.naziv, aktuator);
     }
-        
+           
     
 
 }

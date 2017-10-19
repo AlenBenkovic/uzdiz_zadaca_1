@@ -30,12 +30,12 @@ public class ToFFactory implements AbstractFactory {
     @Override
     public Mjesto kreirajMjesto(String[] podaciMjesta) {
         Mjesto mjesto = new Mjesto(podaciMjesta[0], Integer.parseInt(podaciMjesta[1]), Integer.parseInt(podaciMjesta[2]), Integer.parseInt(podaciMjesta[3]));
-        System.out.println("Kreirano mjesto " + mjesto.naziv + " | Senzori: " + mjesto.brojSenzora + " | Aktuatori: " + mjesto.aktuator + " | Tip: " + mjesto.tip);
+        System.out.println("Kreirano mjesto " + mjesto.naziv + " | Senzori: " + mjesto.brojSenzora + " | Aktuatori: " + mjesto.brojAktuatora + " | Tip: " + mjesto.tip);
         for (int i = 0; i < mjesto.brojSenzora; i++) {
             try {
                 mjesto.setSenzor(this.dohvatiRandomSenzor(mjesto.tip));
             } catch (Exception e) {
-                System.out.println("Nema više senzora");
+                System.out.println("Nema vise odgovarajucih senzora");
             }
         }
 
@@ -43,7 +43,7 @@ public class ToFFactory implements AbstractFactory {
             try {
                 mjesto.setAktuator(this.dohvatiRandomAktuator(mjesto.tip));
             } catch (Exception e) {
-                System.out.println("Nema više aktuatora");
+                System.out.println("Nema vise odgovarajucih aktuatora");
             }
 
         }
@@ -131,18 +131,11 @@ public class ToFFactory implements AbstractFactory {
             i++;
         }
 
-        if (prihvatljiviSenzori.size() != 0) {
-            Random rn = new Random();
-            int randomBroj = rn.nextInt(prihvatljiviSenzori.size());
-            int indexSenzora = prihvatljiviSenzori.get(randomBroj);
+        Random rn = new Random();
+        int randomBroj = rn.nextInt(prihvatljiviSenzori.size());
+        int indexSenzora = prihvatljiviSenzori.get(randomBroj);
 
-            this.senzori.remove(indexSenzora);
-            prihvatljiviSenzori.remove(randomBroj);
-            return this.senzori.get(indexSenzora);
-
-        }
-
-        return null;
+        return this.senzori.get(indexSenzora);
 
     }
 
@@ -156,18 +149,11 @@ public class ToFFactory implements AbstractFactory {
             i++;
         }
 
-        if (prihvatljiviAktuatori.size() != 0) {
-            Random rn = new Random();
-            int randomBroj = rn.nextInt(prihvatljiviAktuatori.size());
-            int indexAktuatora = prihvatljiviAktuatori.get(randomBroj);
+        Random rn = new Random();
+        int randomBroj = rn.nextInt(prihvatljiviAktuatori.size());
+        int indexAktuatora = prihvatljiviAktuatori.get(randomBroj);
 
-            this.aktuatori.remove(indexAktuatora);
-            prihvatljiviAktuatori.remove(randomBroj);
-
-            return this.aktuatori.get(indexAktuatora);
-        }
-
-        return null;
+        return this.aktuatori.get(indexAktuatora);
 
     }
 
