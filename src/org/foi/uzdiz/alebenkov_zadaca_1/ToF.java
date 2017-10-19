@@ -33,9 +33,9 @@ public class ToF {
 
         public ToFBuilder postaviUredjaje() {
             AbstractFactory factory = new ToFFactory();
-            this.senzori = factory.ucitajUredjaje(this.args[2], true);
-            this.aktuatori = factory.ucitajUredjaje(this.args[3], false);
-            this.mjesta = factory.ucitajMjesta(this.args[1]);
+            this.senzori = factory.kreirajUredjaje(this.args[2], true);
+            this.aktuatori = factory.kreirajUredjaje(this.args[3], false);
+            this.mjesta = factory.kreirajMjesta(this.args[1]);
 
             //dva mjesta ne mogu se nikako pojaviti zbog HashMape
             //for (String nazivMjesta : this.podaci.get("mjesta").keySet()) {

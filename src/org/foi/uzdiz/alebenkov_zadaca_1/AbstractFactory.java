@@ -14,9 +14,9 @@ import java.util.HashMap;
  */
 public interface AbstractFactory {
 
-    ArrayList<Uredjaj> ucitajUredjaje(String lokacija, boolean senzor);
+    ArrayList<Uredjaj> kreirajUredjaje(String lokacija, boolean senzor);
 
-    HashMap<String, Mjesto> ucitajMjesta(String lokacija);
+    HashMap<String, Mjesto> kreirajMjesta(String lokacija);
 
     Mjesto kreirajMjesto(String[] mjesto);
 

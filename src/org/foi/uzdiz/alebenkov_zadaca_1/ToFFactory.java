@@ -10,6 +10,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 /**
  *
@@ -31,13 +32,21 @@ public class ToFFactory implements AbstractFactory {
         Mjesto mjesto = new Mjesto(podaciMjesta[0], Integer.parseInt(podaciMjesta[1]), Integer.parseInt(podaciMjesta[2]), Integer.parseInt(podaciMjesta[3]));
         System.out.println("Kreirano mjesto " + mjesto.naziv + " | Senzori: " + mjesto.brojSenzora + " | Aktuatori: " + mjesto.aktuator + " | Tip: " + mjesto.tip);
         for (int i = 0; i < mjesto.brojSenzora; i++) {
-
+            try {
+                mjesto.setSenzor(this.dohvatiRandomSenzor(mjesto.tip));
+            } catch (Exception e) {
+                System.out.println("Nema više senzora");
+            }
         }
 
         for (int i = 0; i < mjesto.brojAktuatora; i++) {
+            try {
+                mjesto.setAktuator(this.dohvatiRandomAktuator(mjesto.tip));
+            } catch (Exception e) {
+                System.out.println("Nema više aktuatora");
+            }
 
         }
-        this.aktuatori.forEach(data -> System.out.println(data.komentar));
         return mjesto;
     }
 
@@ -52,7 +61,7 @@ public class ToFFactory implements AbstractFactory {
     }
 
     @Override
-    public HashMap<String, Mjesto> ucitajMjesta(String lokacija) {
+    public HashMap<String, Mjesto> kreirajMjesta(String lokacija) {
         try {
             FileReader fr = new FileReader(lokacija);
             BufferedReader br = new BufferedReader(fr);
@@ -78,7 +87,7 @@ public class ToFFactory implements AbstractFactory {
     }
 
     @Override
-    public ArrayList<Uredjaj> ucitajUredjaje(String lokacija, boolean senzor) {
+    public ArrayList<Uredjaj> kreirajUredjaje(String lokacija, boolean senzor) {
         try {
             FileReader fr = new FileReader(lokacija);
             BufferedReader br = new BufferedReader(fr);
@@ -110,6 +119,44 @@ public class ToFFactory implements AbstractFactory {
             return null;
         }
 
+    }
+
+    private Senzor dohvatiRandomSenzor(int tip) {
+        ArrayList<Integer> prihvatljiviSenzori = new ArrayList<>();
+        int i = 0;
+        for (Senzor senzor : this.senzori) {
+            if (senzor.tip == tip || senzor.tip == 2) {
+                prihvatljiviSenzori.add(i);
+            }
+            i++;
+        }
+        Random rn = new Random();
+        int randomBroj = rn.nextInt(prihvatljiviSenzori.size());
+        int indexSenzora = prihvatljiviSenzori.get(randomBroj);
+
+        this.senzori.remove(indexSenzora);
+        prihvatljiviSenzori.remove(randomBroj);
+
+        return this.senzori.get(indexSenzora);
+    }
+
+    private Aktuator dohvatiRandomAktuator(int tip) {
+        ArrayList<Integer> prihvatljiviAktuatori = new ArrayList<>();
+        int i = 0;
+        for (Aktuator aktuator : this.aktuatori) {
+            if (aktuator.tip == tip || aktuator.tip == 2) {
+                prihvatljiviAktuatori.add(i);
+            }
+            i++;
+        }
+        Random rn = new Random();
+        int randomBroj = rn.nextInt(prihvatljiviAktuatori.size());
+        int indexAktuatora = prihvatljiviAktuatori.get(randomBroj);
+
+        this.senzori.remove(indexAktuatora);
+        prihvatljiviAktuatori.remove(randomBroj);
+
+        return this.aktuatori.get(indexAktuatora);
     }
 
 }
