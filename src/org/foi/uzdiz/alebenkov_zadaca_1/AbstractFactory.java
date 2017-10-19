@@ -5,14 +5,23 @@
  */
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  *
  * @author abenkovic
  */
 public interface AbstractFactory {
-    
-    Mjesto kreirajMjesto(String mjesto);
-    Uredjaj kreirajSenzor(int tip);
-    Uredjaj kreirajAktuator();
-    
+
+    ArrayList<Uredjaj> ucitajUredjaje(String lokacija, boolean senzor);
+
+    HashMap<String, Mjesto> ucitajMjesta(String lokacija);
+
+    Mjesto kreirajMjesto(String[] mjesto);
+
+    Uredjaj kreirajSenzor(String[] senzor);
+
+    Uredjaj kreirajAktuator(String[] aktuator);
+
 }

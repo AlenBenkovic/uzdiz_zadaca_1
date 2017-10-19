@@ -5,6 +5,10 @@
  */
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -14,42 +18,98 @@ import java.util.HashMap;
 public class ToFFactory implements AbstractFactory {
 
     HashMap<String, String[]> mjesta;
-    HashMap<String, String[]> senzori;
-    HashMap<String, String[]> aktuatori;
+    ArrayList<Senzor> senzori = new ArrayList<>();
+    ArrayList<Aktuator> aktuatori = new ArrayList<>();
 
-    public ToFFactory(HashMap<String, HashMap<String, String[]>> podaci) {
+    public ToFFactory() {
         System.out.println("Konstruktor ToF Factory-a");
 
-        this.mjesta = (HashMap<String, String[]>) podaci.get("mjesta").clone();
-        this.senzori = podaci.get("senzori");
-        this.aktuatori = podaci.get("aktuatori");
     }
 
     @Override
-    public Mjesto kreirajMjesto(String nazivMjesta) {
-        Mjesto mjesto = null;
-        System.out.println("Builder: Kreiram mjesto " + nazivMjesta);
-        String[] podaciOmjestu = this.mjesta.get(nazivMjesta);
-        mjesto = new Mjesto(nazivMjesta, Integer.parseInt(podaciOmjestu[1]), Integer.parseInt(podaciOmjestu[2]), Integer.parseInt(podaciOmjestu[3]));
+    public Mjesto kreirajMjesto(String[] podaciMjesta) {
+        Mjesto mjesto = new Mjesto(podaciMjesta[0], Integer.parseInt(podaciMjesta[1]), Integer.parseInt(podaciMjesta[2]), Integer.parseInt(podaciMjesta[3]));
+        System.out.println("Kreirano mjesto " + mjesto.naziv + " | Senzori: " + mjesto.brojSenzora + " | Aktuatori: " + mjesto.aktuator + " | Tip: " + mjesto.tip);
         for (int i = 0; i < mjesto.brojSenzora; i++) {
-            mjesto.setSenzor(kreirajSenzor(mjesto.tip));
+
         }
+
+        for (int i = 0; i < mjesto.brojAktuatora; i++) {
+
+        }
+        this.aktuatori.forEach(data -> System.out.println(data.komentar));
         return mjesto;
     }
 
     @Override
-    public Senzor kreirajSenzor(int tip) {
-        for (String[] value: this.senzori.values()){
-            if(Integer.parseInt(value[1]) == tip || Integer.parseInt(value[1]) == 2){
-                return new Senzor(value[0], Integer.parseInt(value[1]), Integer.parseInt(value[2]), Float.parseFloat(value[3]), Float.parseFloat(value[4]),value[5]);
-            }
-        }
-        return null;
+    public Senzor kreirajSenzor(String[] senzor) {
+        return new Senzor(senzor[0], Integer.parseInt(senzor[1]), Integer.parseInt(senzor[2]), Float.parseFloat(senzor[3]), Float.parseFloat(senzor[4]), senzor.length == 5 ? "-" : senzor[5]);
     }
 
     @Override
-    public Uredjaj kreirajAktuator() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Aktuator kreirajAktuator(String[] aktuator) {
+        return new Aktuator(aktuator[0], Integer.parseInt(aktuator[1]), Integer.parseInt(aktuator[2]), Float.parseFloat(aktuator[3]), Float.parseFloat(aktuator[4]), aktuator.length == 5 ? "-" : aktuator[5]);
+    }
+
+    @Override
+    public HashMap<String, Mjesto> ucitajMjesta(String lokacija) {
+        try {
+            FileReader fr = new FileReader(lokacija);
+            BufferedReader br = new BufferedReader(fr);
+            HashMap<String, Mjesto> mjesta = new HashMap<>();
+            String s;
+            int brojAtributa = 0;
+            while ((s = br.readLine()) != null) {
+                String[] podatak = s.trim().split(";");
+                if (brojAtributa == 0) { //prva linija je sam opis podataka i ona je mjerodavna za broj atributa
+                    brojAtributa = podatak.length;
+                } else if (podatak.length == brojAtributa) {
+                    mjesta.put(podatak[0], this.kreirajMjesto(podatak));
+
+                } else {
+                    //ne valja ispisi poruku i spremi
+                }
+            }
+            return mjesta;
+        } catch (IOException e) {
+            System.out.println("Greska prilikom citanja datoteke: " + e.toString());
+            return null;
+        }
+    }
+
+    @Override
+    public ArrayList<Uredjaj> ucitajUredjaje(String lokacija, boolean senzor) {
+        try {
+            FileReader fr = new FileReader(lokacija);
+            BufferedReader br = new BufferedReader(fr);
+            ArrayList<Uredjaj> uredjaji = new ArrayList<Uredjaj>();
+            String s;
+            int brojAtributa = 0;
+            while ((s = br.readLine()) != null) {
+                String[] podatak = s.trim().split(";");
+                if (brojAtributa == 0) { //prva linija je sam opis podataka i ona je mjerodavna za broj atributa
+                    brojAtributa = podatak.length;
+                } else if (podatak.length == brojAtributa || podatak.length == brojAtributa - 1) {
+                    if (senzor) {
+                        Senzor senzorTmp = this.kreirajSenzor(podatak);
+                        uredjaji.add(senzorTmp);
+                        this.senzori.add(senzorTmp);
+
+                    } else {
+                        Aktuator aktuatorTmp = this.kreirajAktuator(podatak);
+                        uredjaji.add(aktuatorTmp);
+                        this.aktuatori.add(aktuatorTmp);
+                    }
+                } else {
+                    //ne valja ispisi poruku i spremi
+                }
+            }
+            return uredjaji;
+        } catch (IOException e) {
+            System.out.println("Greska prilikom citanja datoteke: " + e.toString());
+            return null;
+        }
+
     }
 
 }

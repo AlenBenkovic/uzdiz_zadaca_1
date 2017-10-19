@@ -24,7 +24,6 @@ public class Mjesto {
         this.tip = tip;
         this.brojSenzora = brojSenzora;
         this.brojAktuatora = brojAktuatora;
-        System.out.println(naziv + tip + brojSenzora + brojAktuatora);
     }
 
     public Senzor getSenzor(String naziv) {
