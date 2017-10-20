@@ -6,7 +6,6 @@
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 
@@ -78,14 +77,16 @@ public class Mjesto {
                 + "\n\tRadim provjeru uređaja za " + this.naziv
                 + "\n-------------------------------------------------------------", "info");
         this.senzori.stream().map((senzor) -> {
-            this.logs.log(senzor.naziv + ": " + senzor.getStatus() + " (neuspješne provjere: " + senzor.neuspjesneProvjere + ")", "info");
+            this.logs.log("\nUređaj: " + senzor.naziv + "\nStatus: " + senzor.getStatus() + " (neuspješne provjere: " + senzor.neuspjesneProvjere + ")\n"
+                    + "Vrjednost: " + senzor.getVrijednost() + "\n----------", "info");
             return senzor;
         }).filter((senzor) -> (senzor.neuspjesneProvjere == 3)).forEachOrdered((senzor) -> {
             uredjajiZamjena.add(senzor);
         });
 
         this.aktuatori.stream().map((aktuator) -> {
-            this.logs.log(aktuator.naziv + ": " + aktuator.getStatus() + " (neuspješne provjere: " + aktuator.neuspjesneProvjere + ")", "info");
+            this.logs.log("\nUređaj: " + aktuator.naziv + "\nStatus: " + aktuator.getStatus() + " (neuspješne provjere: " + aktuator.neuspjesneProvjere + ")\n"
+                    + "Vrjednost: " + aktuator.getVrijednost() + "\n----------", "info");
             return aktuator;
         }).filter((aktuator) -> (aktuator.neuspjesneProvjere == 3)).forEachOrdered((aktuator) -> {
             uredjajiZamjena.add(aktuator);

@@ -20,6 +20,7 @@ public abstract class Uredjaj implements Cloneable {
     public float min;
     public float max;
     public String komentar;
+    public float vrijednost;
 
     public boolean onemogucen = false;
     public int neuspjesneProvjere = 0;
@@ -33,6 +34,7 @@ public abstract class Uredjaj implements Cloneable {
         this.min = min;
         this.max = max;
         this.komentar = komentar;
+        this.vrijednost = this.kreirajRandomVrijednost(min, max);
     }
 
     public boolean isOnemogucen() {
@@ -51,6 +53,26 @@ public abstract class Uredjaj implements Cloneable {
 
         }
         return random < 90;
+    }
+
+    public String getVrijednost() {
+        switch (this.vrsta) {
+            case 0:
+                return String.valueOf((int) this.vrijednost);
+            case 1:
+                return String.format("%.1f", this.vrijednost);
+            case 2:
+                return String.format("%.5f", this.vrijednost);
+            case 3:
+                return (int) this.vrijednost > 0 ? "da" : "ne";
+        }
+        return "nema";
+    }
+
+    public float kreirajRandomVrijednost(float min, float max) {
+        Random r = new Random();
+        float R = (float) r.nextInt((int) max + 1 - (int) min) + min;
+        return R;
     }
 
     public boolean inicijalizacija() {

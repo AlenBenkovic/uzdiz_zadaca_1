@@ -1,1676 +1,2824 @@
-20/10/2017 01:12:00.439 - [INFO] - Postavljam senzor unutarnja temperatura
-20/10/2017 01:12:00.440 - [INFO] - Postavljam senzor dim
-20/10/2017 01:12:00.440 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
-20/10/2017 01:12:00.441 - [INFO] - Postavljam senzor unutarnja temperatura
-20/10/2017 01:12:00.441 - [INFO] - Postavljam senzor dim
-20/10/2017 01:12:00.441 - [INFO] - Postavljam aktuator snimanje kamerom
-20/10/2017 01:12:00.441 - [INFO] - Postavljam senzor vjetar
-20/10/2017 01:12:00.442 - [INFO] - Postavljam senzor svjetlo
-20/10/2017 01:12:00.442 - [INFO] - Postavljam senzor svjetlo
-20/10/2017 01:12:00.442 - [INFO] - Postavljam aktuator paljenje/gašenje lampe
-20/10/2017 01:12:00.442 - [INFO] - Postavljam senzor prepreka
-20/10/2017 01:12:00.443 - [INFO] - Postavljam senzor kontakt
-20/10/2017 01:12:00.443 - [INFO] - Postavljam senzor prepreka
-20/10/2017 01:12:00.443 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
-20/10/2017 01:12:00.444 - [INFO] - Postavljam aktuator snimanje kamerom
-20/10/2017 01:12:00.444 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
-20/10/2017 01:12:00.444 - [INFO] - Postavljam senzor vlaga
-20/10/2017 01:12:00.444 - [INFO] - Postavljam senzor kontakt
-20/10/2017 01:12:00.444 - [INFO] - Postavljam senzor prepreka
-20/10/2017 01:12:00.444 - [INFO] - Postavljam senzor svjetlo
-20/10/2017 01:12:00.444 - [INFO] - Postavljam aktuator snimanje kamerom
-20/10/2017 01:12:00.445 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
-20/10/2017 01:12:00.445 - [INFO] - Postavljam senzor unutarnja temperatura
-20/10/2017 01:12:00.445 - [INFO] - Postavljam senzor dim
-20/10/2017 01:12:00.445 - [INFO] - Postavljam senzor prepreka
-20/10/2017 01:12:00.445 - [INFO] - Postavljam senzor kontakt
-20/10/2017 01:12:00.445 - [INFO] - Postavljam senzor vlaga
-20/10/2017 01:12:00.446 - [INFO] - Postavljam senzor prepreka
-20/10/2017 01:12:00.446 - [INFO] - Postavljam aktuator dizanje/spuštanje platna za ploču
-20/10/2017 01:12:00.446 - [INFO] - Postavljam aktuator snimanje kamerom
-20/10/2017 01:12:00.446 - [INFO] - Postavljam aktuator paljenje/gašenje lampe
-20/10/2017 01:12:00.446 - [INFO] - Postavljam aktuator snimanje kamerom
-20/10/2017 01:12:00.446 - [INFO] - Postavljam senzor dim
-20/10/2017 01:12:00.447 - [INFO] - Postavljam senzor vlaga
-20/10/2017 01:12:00.447 - [INFO] - Postavljam senzor dim
-20/10/2017 01:12:00.447 - [INFO] - Postavljam senzor vlaga
-20/10/2017 01:12:00.447 - [INFO] - Postavljam aktuator paljenje/gašenje lampe
-20/10/2017 01:12:00.447 - [INFO] - Postavljam aktuator snimanje kamerom
-20/10/2017 01:12:00.447 - [INFO] - Postavljam senzor unutarnja temperatura
-20/10/2017 01:12:00.447 - [INFO] - Postavljam senzor vlaga
-20/10/2017 01:12:00.448 - [INFO] - Postavljam senzor kontakt
-20/10/2017 01:12:00.448 - [INFO] - Postavljam senzor dim
-20/10/2017 01:12:00.448 - [INFO] - Postavljam senzor svjetlo
-20/10/2017 01:12:00.448 - [INFO] - Postavljam aktuator snimanje kamerom
-20/10/2017 01:12:00.448 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
-20/10/2017 01:12:00.449 - [INFO] - Postavljam aktuator dizanje/spuštanje platna za ploču
-20/10/2017 01:12:00.449 - [INFO] - 
+20/10/2017 02:16:30.332 - [INFO] - Postavljam senzor prepreka
+20/10/2017 02:16:30.333 - [INFO] - Postavljam senzor vlaga
+20/10/2017 02:16:30.334 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
+20/10/2017 02:16:30.334 - [INFO] - Postavljam senzor unutarnja temperatura
+20/10/2017 02:16:30.334 - [INFO] - Postavljam senzor vlaga
+20/10/2017 02:16:30.335 - [INFO] - Postavljam aktuator snimanje kamerom
+20/10/2017 02:16:30.335 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.335 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.335 - [INFO] - Postavljam senzor prepreka
+20/10/2017 02:16:30.336 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.336 - [INFO] - Postavljam senzor dim
+20/10/2017 02:16:30.336 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.337 - [INFO] - Postavljam senzor unutarnja temperatura
+20/10/2017 02:16:30.337 - [INFO] - Postavljam aktuator snimanje kamerom
+20/10/2017 02:16:30.337 - [INFO] - Postavljam aktuator dizanje/spuštanje platna za ploču
+20/10/2017 02:16:30.337 - [INFO] - Postavljam aktuator paljenje/gašenje lampe
+20/10/2017 02:16:30.338 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.338 - [INFO] - Postavljam senzor prepreka
+20/10/2017 02:16:30.338 - [INFO] - Postavljam senzor kontakt
+20/10/2017 02:16:30.338 - [INFO] - Postavljam senzor unutarnja temperatura
+20/10/2017 02:16:30.338 - [INFO] - Postavljam aktuator paljenje/gašenje lampe
+20/10/2017 02:16:30.339 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.339 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.339 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.339 - [INFO] - Postavljam senzor unutarnja temperatura
+20/10/2017 02:16:30.339 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.340 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.340 - [INFO] - Postavljam senzor vlaga
+20/10/2017 02:16:30.340 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
+20/10/2017 02:16:30.340 - [INFO] - Postavljam aktuator dizanje/spuštanje platna za ploču
+20/10/2017 02:16:30.340 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.341 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
+20/10/2017 02:16:30.341 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:30.341 - [INFO] - Postavljam senzor vlaga
+20/10/2017 02:16:30.341 - [INFO] - Postavljam senzor unutarnja temperatura
+20/10/2017 02:16:30.342 - [INFO] - Postavljam senzor dim
+20/10/2017 02:16:30.342 - [INFO] - Postavljam aktuator dizanje/spuštanje platna za ploču
+20/10/2017 02:16:30.342 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.342 - [INFO] - Postavljam senzor kontakt
+20/10/2017 02:16:30.342 - [INFO] - Postavljam senzor unutarnja temperatura
+20/10/2017 02:16:30.343 - [INFO] - Postavljam senzor kontakt
+20/10/2017 02:16:30.343 - [INFO] - Postavljam senzor vlaga
+20/10/2017 02:16:30.343 - [INFO] - Postavljam senzor dim
+20/10/2017 02:16:30.343 - [INFO] - Postavljam aktuator paljenje/gašenje lampe
+20/10/2017 02:16:30.343 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.344 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.344 - [INFO] - 
 -------------------------------------------------------------
 	Inicijaliziram uređaje za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:12:00.449 - [INFO] - Inicijaliziram uređaj vlaga
-20/10/2017 01:12:00.449 - [INFO] - vlaga OK
-20/10/2017 01:12:00.449 - [INFO] - Inicijaliziram uređaj kontakt
-20/10/2017 01:12:00.449 - [INFO] - kontakt OK
-20/10/2017 01:12:00.450 - [INFO] - Inicijaliziram uređaj prepreka
-20/10/2017 01:12:00.450 - [INFO] - prepreka OK
-20/10/2017 01:12:00.450 - [INFO] - Inicijaliziram uređaj svjetlo
-20/10/2017 01:12:00.450 - [INFO] - svjetlo OK
-20/10/2017 01:12:00.450 - [INFO] - Inicijaliziram uređaj snimanje kamerom
-20/10/2017 01:12:00.450 - [INFO] - snimanje kamerom OK
-20/10/2017 01:12:00.450 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
-20/10/2017 01:12:00.450 - [INFO] - dizanje/spuštanje televizora OK
-20/10/2017 01:12:00.451 - [INFO] - 
+20/10/2017 02:16:30.344 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.344 - [INFO] - svjetlo OK
+20/10/2017 02:16:30.345 - [INFO] - Inicijaliziram uređaj prepreka
+20/10/2017 02:16:30.345 - [INFO] - prepreka OK
+20/10/2017 02:16:30.345 - [INFO] - Inicijaliziram uređaj kontakt
+20/10/2017 02:16:30.345 - [INFO] - kontakt OK
+20/10/2017 02:16:30.345 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
+20/10/2017 02:16:30.345 - [INFO] - unutarnja temperatura OK
+20/10/2017 02:16:30.345 - [INFO] - Inicijaliziram uređaj paljenje/gašenje lampe
+20/10/2017 02:16:30.346 - [INFO] - paljenje/gašenje lampe OK
+20/10/2017 02:16:30.346 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.346 - [INFO] - otvaranje/zatvaranje vrata OK
+20/10/2017 02:16:30.346 - [INFO] - 
 -------------------------------------------------------------
 	Inicijaliziram uređaje za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:12:00.451 - [INFO] - Inicijaliziram uređaj dim
-20/10/2017 01:12:00.451 - [INFO] - dim OK
-20/10/2017 01:12:00.451 - [INFO] - Inicijaliziram uređaj vlaga
-20/10/2017 01:12:00.451 - [INFO] - vlaga OK
-20/10/2017 01:12:00.451 - [INFO] - Inicijaliziram uređaj dim
-20/10/2017 01:12:00.451 - [WARNING] - dim FAILED
-20/10/2017 01:12:00.452 - [INFO] - Inicijaliziram uređaj vlaga
-20/10/2017 01:12:00.452 - [WARNING] - vlaga FAILED
-20/10/2017 01:12:00.452 - [INFO] - Inicijaliziram uređaj paljenje/gašenje lampe
-20/10/2017 01:12:00.452 - [INFO] - paljenje/gašenje lampe OK
-20/10/2017 01:12:00.452 - [INFO] - Inicijaliziram uređaj snimanje kamerom
-20/10/2017 01:12:00.453 - [INFO] - snimanje kamerom OK
-20/10/2017 01:12:00.453 - [INFO] - Uklanjam senzor: dim
-20/10/2017 01:12:00.453 - [INFO] - Uklanjam senzor: vlaga
-20/10/2017 01:12:00.453 - [INFO] - 
+20/10/2017 02:16:30.346 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.347 - [INFO] - svjetlo OK
+20/10/2017 02:16:30.347 - [INFO] - Inicijaliziram uređaj vlaga
+20/10/2017 02:16:30.347 - [WARNING] - vlaga FAILED
+20/10/2017 02:16:30.347 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
+20/10/2017 02:16:30.347 - [WARNING] - unutarnja temperatura FAILED
+20/10/2017 02:16:30.348 - [INFO] - Inicijaliziram uređaj dim
+20/10/2017 02:16:30.348 - [INFO] - dim OK
+20/10/2017 02:16:30.348 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje platna za ploču
+20/10/2017 02:16:30.348 - [INFO] - dizanje/spuštanje platna za ploču OK
+20/10/2017 02:16:30.348 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.348 - [INFO] - otvaranje/zatvaranje vrata OK
+20/10/2017 02:16:30.348 - [INFO] - Uklanjam senzor: vlaga
+20/10/2017 02:16:30.349 - [INFO] - Uklanjam senzor: unutarnja temperatura
+20/10/2017 02:16:30.349 - [INFO] - 
 -------------------------------------------------------------
 	Inicijaliziram uređaje za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:12:00.453 - [INFO] - Inicijaliziram uređaj vjetar
-20/10/2017 01:12:00.453 - [INFO] - vjetar OK
-20/10/2017 01:12:00.454 - [INFO] - Inicijaliziram uređaj svjetlo
-20/10/2017 01:12:00.454 - [INFO] - svjetlo OK
-20/10/2017 01:12:00.454 - [INFO] - Inicijaliziram uređaj svjetlo
-20/10/2017 01:12:00.454 - [INFO] - svjetlo OK
-20/10/2017 01:12:00.454 - [INFO] - Inicijaliziram uređaj paljenje/gašenje lampe
-20/10/2017 01:12:00.454 - [INFO] - paljenje/gašenje lampe OK
-20/10/2017 01:12:00.455 - [INFO] - 
+20/10/2017 02:16:30.349 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.349 - [INFO] - svjetlo OK
+20/10/2017 02:16:30.349 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.349 - [INFO] - svjetlo OK
+20/10/2017 02:16:30.350 - [INFO] - Inicijaliziram uređaj prepreka
+20/10/2017 02:16:30.350 - [INFO] - prepreka OK
+20/10/2017 02:16:30.350 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.350 - [WARNING] - otvaranje/zatvaranje vrata FAILED
+20/10/2017 02:16:30.350 - [INFO] - Uklanjam aktuator: otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.350 - [INFO] - 
 -------------------------------------------------------------
 	Inicijaliziram uređaje za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:12:00.455 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
-20/10/2017 01:12:00.455 - [INFO] - unutarnja temperatura OK
-20/10/2017 01:12:00.455 - [INFO] - Inicijaliziram uređaj dim
-20/10/2017 01:12:00.455 - [INFO] - dim OK
-20/10/2017 01:12:00.456 - [INFO] - Inicijaliziram uređaj prepreka
-20/10/2017 01:12:00.456 - [INFO] - prepreka OK
-20/10/2017 01:12:00.456 - [INFO] - Inicijaliziram uređaj kontakt
-20/10/2017 01:12:00.456 - [INFO] - kontakt OK
-20/10/2017 01:12:00.456 - [INFO] - Inicijaliziram uređaj vlaga
-20/10/2017 01:12:00.456 - [INFO] - vlaga OK
-20/10/2017 01:12:00.457 - [INFO] - Inicijaliziram uređaj prepreka
-20/10/2017 01:12:00.457 - [WARNING] - prepreka FAILED
-20/10/2017 01:12:00.457 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje platna za ploču
-20/10/2017 01:12:00.457 - [WARNING] - dizanje/spuštanje platna za ploču FAILED
-20/10/2017 01:12:00.457 - [INFO] - Inicijaliziram uređaj snimanje kamerom
-20/10/2017 01:12:00.458 - [INFO] - snimanje kamerom OK
-20/10/2017 01:12:00.458 - [INFO] - Inicijaliziram uređaj paljenje/gašenje lampe
-20/10/2017 01:12:00.458 - [WARNING] - paljenje/gašenje lampe FAILED
-20/10/2017 01:12:00.458 - [INFO] - Inicijaliziram uređaj snimanje kamerom
-20/10/2017 01:12:00.458 - [WARNING] - snimanje kamerom FAILED
-20/10/2017 01:12:00.459 - [INFO] - Uklanjam senzor: prepreka
-20/10/2017 01:12:00.459 - [INFO] - Uklanjam aktuator: dizanje/spuštanje platna za ploču
-20/10/2017 01:12:00.459 - [INFO] - Uklanjam aktuator: paljenje/gašenje lampe
-20/10/2017 01:12:00.459 - [INFO] - Uklanjam aktuator: snimanje kamerom
-20/10/2017 01:12:00.459 - [INFO] - 
+20/10/2017 02:16:30.350 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.351 - [INFO] - svjetlo OK
+20/10/2017 02:16:30.351 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.351 - [WARNING] - svjetlo FAILED
+20/10/2017 02:16:30.351 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
+20/10/2017 02:16:30.351 - [INFO] - unutarnja temperatura OK
+20/10/2017 02:16:30.351 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.352 - [INFO] - svjetlo OK
+20/10/2017 02:16:30.352 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.352 - [INFO] - svjetlo OK
+20/10/2017 02:16:30.352 - [INFO] - Inicijaliziram uređaj vlaga
+20/10/2017 02:16:30.352 - [INFO] - vlaga OK
+20/10/2017 02:16:30.352 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
+20/10/2017 02:16:30.353 - [INFO] - dizanje/spuštanje televizora OK
+20/10/2017 02:16:30.353 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje platna za ploču
+20/10/2017 02:16:30.353 - [INFO] - dizanje/spuštanje platna za ploču OK
+20/10/2017 02:16:30.353 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.353 - [INFO] - otvaranje/zatvaranje vrata OK
+20/10/2017 02:16:30.354 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
+20/10/2017 02:16:30.354 - [INFO] - dizanje/spuštanje televizora OK
+20/10/2017 02:16:30.354 - [INFO] - Uklanjam senzor: svjetlo
+20/10/2017 02:16:30.354 - [INFO] - 
 -------------------------------------------------------------
 	Inicijaliziram uređaje za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:00.460 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
-20/10/2017 01:12:00.460 - [INFO] - unutarnja temperatura OK
-20/10/2017 01:12:00.460 - [INFO] - Inicijaliziram uređaj dim
-20/10/2017 01:12:00.460 - [INFO] - dim OK
-20/10/2017 01:12:00.460 - [INFO] - Inicijaliziram uređaj snimanje kamerom
-20/10/2017 01:12:00.461 - [INFO] - snimanje kamerom OK
-20/10/2017 01:12:00.461 - [INFO] - 
+20/10/2017 02:16:30.354 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
+20/10/2017 02:16:30.354 - [INFO] - unutarnja temperatura OK
+20/10/2017 02:16:30.354 - [INFO] - Inicijaliziram uređaj vlaga
+20/10/2017 02:16:30.355 - [INFO] - vlaga OK
+20/10/2017 02:16:30.355 - [INFO] - Inicijaliziram uređaj snimanje kamerom
+20/10/2017 02:16:30.355 - [INFO] - snimanje kamerom OK
+20/10/2017 02:16:30.355 - [INFO] - 
 -------------------------------------------------------------
 	Inicijaliziram uređaje za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:12:00.461 - [INFO] - Inicijaliziram uređaj prepreka
-20/10/2017 01:12:00.461 - [INFO] - prepreka OK
-20/10/2017 01:12:00.463 - [INFO] - Inicijaliziram uređaj kontakt
-20/10/2017 01:12:00.463 - [INFO] - kontakt OK
-20/10/2017 01:12:00.464 - [INFO] - Inicijaliziram uređaj prepreka
-20/10/2017 01:12:00.464 - [INFO] - prepreka OK
-20/10/2017 01:12:00.464 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
-20/10/2017 01:12:00.464 - [INFO] - dizanje/spuštanje televizora OK
-20/10/2017 01:12:00.464 - [INFO] - Inicijaliziram uređaj snimanje kamerom
-20/10/2017 01:12:00.464 - [INFO] - snimanje kamerom OK
-20/10/2017 01:12:00.465 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
-20/10/2017 01:12:00.465 - [INFO] - dizanje/spuštanje televizora OK
-20/10/2017 01:12:00.465 - [INFO] - 
+20/10/2017 02:16:30.355 - [INFO] - Inicijaliziram uređaj dim
+20/10/2017 02:16:30.355 - [INFO] - dim OK
+20/10/2017 02:16:30.355 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:30.356 - [INFO] - svjetlo OK
+20/10/2017 02:16:30.362 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
+20/10/2017 02:16:30.364 - [INFO] - unutarnja temperatura OK
+20/10/2017 02:16:30.364 - [INFO] - Inicijaliziram uređaj snimanje kamerom
+20/10/2017 02:16:30.364 - [INFO] - snimanje kamerom OK
+20/10/2017 02:16:30.364 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje platna za ploču
+20/10/2017 02:16:30.365 - [INFO] - dizanje/spuštanje platna za ploču OK
+20/10/2017 02:16:30.365 - [INFO] - Inicijaliziram uređaj paljenje/gašenje lampe
+20/10/2017 02:16:30.365 - [INFO] - paljenje/gašenje lampe OK
+20/10/2017 02:16:30.365 - [INFO] - 
 -------------------------------------------------------------
 	Inicijaliziram uređaje za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:00.465 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
-20/10/2017 01:12:00.465 - [INFO] - unutarnja temperatura OK
-20/10/2017 01:12:00.466 - [INFO] - Inicijaliziram uređaj dim
-20/10/2017 01:12:00.466 - [INFO] - dim OK
-20/10/2017 01:12:00.466 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
-20/10/2017 01:12:00.468 - [INFO] - dizanje/spuštanje televizora OK
-20/10/2017 01:12:00.468 - [INFO] - 
+20/10/2017 02:16:30.365 - [INFO] - Inicijaliziram uređaj prepreka
+20/10/2017 02:16:30.366 - [INFO] - prepreka OK
+20/10/2017 02:16:30.366 - [INFO] - Inicijaliziram uređaj vlaga
+20/10/2017 02:16:30.366 - [INFO] - vlaga OK
+20/10/2017 02:16:30.366 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
+20/10/2017 02:16:30.366 - [INFO] - dizanje/spuštanje televizora OK
+20/10/2017 02:16:30.366 - [INFO] - 
 -------------------------------------------------------------
 	Inicijaliziram uređaje za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:12:00.468 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
-20/10/2017 01:12:00.469 - [INFO] - unutarnja temperatura OK
-20/10/2017 01:12:00.469 - [INFO] - Inicijaliziram uređaj vlaga
-20/10/2017 01:12:00.469 - [WARNING] - vlaga FAILED
-20/10/2017 01:12:00.469 - [INFO] - Inicijaliziram uređaj kontakt
-20/10/2017 01:12:00.469 - [WARNING] - kontakt FAILED
-20/10/2017 01:12:00.469 - [INFO] - Inicijaliziram uređaj dim
-20/10/2017 01:12:00.470 - [INFO] - dim OK
-20/10/2017 01:12:00.470 - [INFO] - Inicijaliziram uređaj svjetlo
-20/10/2017 01:12:00.470 - [INFO] - svjetlo OK
-20/10/2017 01:12:00.470 - [INFO] - Inicijaliziram uređaj snimanje kamerom
-20/10/2017 01:12:00.470 - [INFO] - snimanje kamerom OK
-20/10/2017 01:12:00.471 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
-20/10/2017 01:12:00.471 - [INFO] - otvaranje/zatvaranje vrata OK
-20/10/2017 01:12:00.471 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje platna za ploču
-20/10/2017 01:12:00.471 - [INFO] - dizanje/spuštanje platna za ploču OK
-20/10/2017 01:12:00.471 - [INFO] - Uklanjam senzor: vlaga
-20/10/2017 01:12:00.471 - [INFO] - Uklanjam senzor: kontakt
-20/10/2017 01:12:05.544 - [INFO] - 
+20/10/2017 02:16:30.366 - [INFO] - Inicijaliziram uređaj kontakt
+20/10/2017 02:16:30.367 - [INFO] - kontakt OK
+20/10/2017 02:16:30.367 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
+20/10/2017 02:16:30.367 - [INFO] - unutarnja temperatura OK
+20/10/2017 02:16:30.367 - [INFO] - Inicijaliziram uređaj kontakt
+20/10/2017 02:16:30.367 - [INFO] - kontakt OK
+20/10/2017 02:16:30.367 - [INFO] - Inicijaliziram uređaj vlaga
+20/10/2017 02:16:30.367 - [WARNING] - vlaga FAILED
+20/10/2017 02:16:30.367 - [INFO] - Inicijaliziram uređaj dim
+20/10/2017 02:16:30.367 - [INFO] - dim OK
+20/10/2017 02:16:30.367 - [INFO] - Inicijaliziram uređaj paljenje/gašenje lampe
+20/10/2017 02:16:30.368 - [INFO] - paljenje/gašenje lampe OK
+20/10/2017 02:16:30.368 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.368 - [INFO] - otvaranje/zatvaranje vrata OK
+20/10/2017 02:16:30.368 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
+20/10/2017 02:16:30.368 - [INFO] - otvaranje/zatvaranje vrata OK
+20/10/2017 02:16:30.368 - [INFO] - Uklanjam senzor: vlaga
+20/10/2017 02:16:35.447 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:12:05.553 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.553 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.554 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.554 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.557 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.557 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.558 - [INFO] - 
+20/10/2017 02:16:35.471 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.471 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.472 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.483 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 37.0
+----------
+20/10/2017 02:16:35.487 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.487 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.487 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:12:05.558 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.558 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.559 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.559 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.560 - [INFO] - 
+20/10/2017 02:16:35.488 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.488 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.488 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 16
+----------
+20/10/2017 02:16:35.488 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.488 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:12:05.560 - [INFO] - vjetar: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.560 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.560 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.561 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.561 - [INFO] - 
+20/10/2017 02:16:35.489 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.489 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.489 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.490 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:12:05.561 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.561 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.562 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.562 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.562 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.563 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.563 - [INFO] - 
+20/10/2017 02:16:35.490 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.490 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: false (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:16:35.490 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.491 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.491 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 94
+----------
+20/10/2017 02:16:35.491 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:16:35.491 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:16:35.491 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.491 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 42
+----------
+20/10/2017 02:16:35.492 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:05.563 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.564 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.564 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.564 - [INFO] - 
+20/10/2017 02:16:35.492 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:16:35.492 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 4
+----------
+20/10/2017 02:16:35.492 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.492 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:12:05.564 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.565 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.565 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.565 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.566 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.566 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.570 - [INFO] - 
+20/10/2017 02:16:35.492 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.493 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.493 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:16:35.493 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.493 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 27
+----------
+20/10/2017 02:16:35.493 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.493 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:05.570 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.573 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.573 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.573 - [INFO] - 
+20/10/2017 02:16:35.494 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.494 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:16:35.494 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 73
+----------
+20/10/2017 02:16:35.494 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:12:05.574 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.574 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.574 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.575 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.575 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:05.575 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.576 - [INFO] - 
+20/10/2017 02:16:35.494 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.494 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 35.0
+----------
+20/10/2017 02:16:35.494 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.495 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:35.495 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.495 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:35.495 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.495 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:12:10.577 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.578 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.579 - [INFO] - prepreka: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.580 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.580 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.581 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.581 - [INFO] - 
+20/10/2017 02:16:40.499 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.500 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.501 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.502 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: false (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:16:40.502 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.503 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.504 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:12:10.581 - [INFO] - dim: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.582 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.583 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.583 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.584 - [INFO] - 
+20/10/2017 02:16:40.504 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.505 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.505 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 16
+----------
+20/10/2017 02:16:40.506 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.506 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:12:10.584 - [INFO] - vjetar: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.585 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.585 - [INFO] - svjetlo: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.586 - [INFO] - paljenje/gašenje lampe: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.587 - [INFO] - 
+20/10/2017 02:16:40.507 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.507 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.515 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.516 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:12:10.588 - [INFO] - unutarnja temperatura: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.590 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.591 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.592 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.592 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.594 - [INFO] - snimanje kamerom: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.595 - [INFO] - 
+20/10/2017 02:16:40.516 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.520 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:16:40.520 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.520 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.520 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 94
+----------
+20/10/2017 02:16:40.520 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:16:40.521 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:16:40.521 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.521 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 42
+----------
+20/10/2017 02:16:40.521 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:10.595 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.595 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.596 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.597 - [INFO] - 
+20/10/2017 02:16:40.522 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:16:40.522 - [INFO] - 
+Uređaj: vlaga
+Status: false (neuspješne provjere: 1)
+Vrjednost: 4
+----------
+20/10/2017 02:16:40.522 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.523 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:12:10.597 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.598 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.598 - [INFO] - prepreka: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.598 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.598 - [INFO] - snimanje kamerom: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.599 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.599 - [INFO] - 
+20/10/2017 02:16:40.523 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.523 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.524 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:16:40.524 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.524 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 27
+----------
+20/10/2017 02:16:40.524 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.524 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:10.599 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.599 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.600 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.600 - [INFO] - 
+20/10/2017 02:16:40.524 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.525 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:16:40.525 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 73
+----------
+20/10/2017 02:16:40.525 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:12:10.600 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.600 - [INFO] - dim: false (neuspješne provjere: 1)
-20/10/2017 01:12:10.601 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.601 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.603 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:10.603 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.605 - [INFO] - 
+20/10/2017 02:16:40.525 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.526 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 35.0
+----------
+20/10/2017 02:16:40.526 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.526 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:40.526 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.526 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:40.527 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.528 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:12:15.606 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.608 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.609 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.609 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.610 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.611 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.611 - [INFO] - 
+20/10/2017 02:16:45.531 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.533 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.533 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.534 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:16:45.535 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.536 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.537 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:12:15.612 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.612 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.614 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.615 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.616 - [INFO] - 
+20/10/2017 02:16:45.537 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.538 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.539 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 16
+----------
+20/10/2017 02:16:45.539 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.540 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:12:15.616 - [INFO] - vjetar: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.617 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.617 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.618 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.618 - [INFO] - 
+20/10/2017 02:16:45.540 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.541 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.541 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.542 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:12:15.619 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.619 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.619 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.620 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.620 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.621 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.621 - [INFO] - 
+20/10/2017 02:16:45.542 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.543 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:16:45.543 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.544 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.544 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 94
+----------
+20/10/2017 02:16:45.545 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:16:45.546 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:16:45.546 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.546 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 42
+----------
+20/10/2017 02:16:45.547 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:15.621 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.622 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.622 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.622 - [INFO] - 
+20/10/2017 02:16:45.548 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:16:45.548 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 4
+----------
+20/10/2017 02:16:45.548 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.548 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:12:15.623 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.623 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.623 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.623 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.624 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.624 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.624 - [INFO] - 
+20/10/2017 02:16:45.549 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.549 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.549 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:16:45.550 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.550 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 27
+----------
+20/10/2017 02:16:45.550 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.550 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:15.624 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.624 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.625 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.625 - [INFO] - 
+20/10/2017 02:16:45.552 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.553 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:16:45.553 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 73
+----------
+20/10/2017 02:16:45.553 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:12:15.625 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.625 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:15.625 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.626 - [INFO] - snimanje kamerom: false (neuspješne provjere: 1)
-20/10/2017 01:12:15.626 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:15.626 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.627 - [INFO] - 
+20/10/2017 02:16:45.553 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.554 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: false (neuspješne provjere: 1)
+Vrjednost: 35.0
+----------
+20/10/2017 02:16:45.554 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.554 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:45.554 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.554 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:45.554 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.555 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:12:20.628 - [INFO] - vlaga: false (neuspješne provjere: 1)
-20/10/2017 01:12:20.629 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.630 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.630 - [INFO] - svjetlo: false (neuspješne provjere: 1)
-20/10/2017 01:12:20.631 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.631 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.631 - [INFO] - 
+20/10/2017 02:16:50.556 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.557 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.558 - [INFO] - 
+Uređaj: kontakt
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.561 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:16:50.562 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: false (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.562 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.563 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:12:20.632 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.632 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.632 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.633 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.634 - [INFO] - 
+20/10/2017 02:16:50.563 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.564 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.564 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 16
+----------
+20/10/2017 02:16:50.565 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.565 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:12:20.634 - [INFO] - vjetar: false (neuspješne provjere: 1)
-20/10/2017 01:12:20.634 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.635 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.635 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.636 - [INFO] - 
+20/10/2017 02:16:50.566 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.567 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.567 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.568 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:12:20.636 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.637 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.637 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.638 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.638 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.639 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.640 - [INFO] - 
+20/10/2017 02:16:50.569 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.569 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:16:50.570 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.571 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.571 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 94
+----------
+20/10/2017 02:16:50.572 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:16:50.573 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:16:50.574 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.574 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 42
+----------
+20/10/2017 02:16:50.575 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:20.640 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.641 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.642 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.651 - [INFO] - 
+20/10/2017 02:16:50.576 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:16:50.577 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 4
+----------
+20/10/2017 02:16:50.577 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.578 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:12:20.652 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.653 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.653 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.654 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.654 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.655 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.655 - [INFO] - 
+20/10/2017 02:16:50.582 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.583 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.584 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:16:50.585 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.586 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 27
+----------
+20/10/2017 02:16:50.586 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.587 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:12:20.656 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.656 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.665 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 1)
-20/10/2017 01:12:20.665 - [INFO] - 
+20/10/2017 02:16:50.588 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.588 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:16:50.589 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 73
+----------
+20/10/2017 02:16:50.589 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:12:20.665 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.665 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.666 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.666 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:20.667 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:20.667 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.668 - [INFO] - 
+20/10/2017 02:16:50.590 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.590 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 35.0
+----------
+20/10/2017 02:16:50.591 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.591 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:50.592 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.592 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:50.593 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.593 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:12:25.670 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.670 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.671 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.671 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.672 - [INFO] - snimanje kamerom: false (neuspješne provjere: 1)
-20/10/2017 01:12:25.672 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.673 - [INFO] - 
+20/10/2017 02:16:55.595 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.596 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.598 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.602 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:16:55.602 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.603 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.604 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:12:25.673 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.674 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.674 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.675 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.675 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:12:25.675 - [INFO] - vjetar: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.676 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.676 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.676 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.677 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:12:25.677 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.678 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.678 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.678 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.679 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.679 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.679 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:12:25.680 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.680 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.681 - [INFO] - snimanje kamerom: false (neuspješne provjere: 1)
-20/10/2017 01:12:25.681 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:12:25.681 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.682 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.682 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.683 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.683 - [INFO] - snimanje kamerom: false (neuspješne provjere: 2)
-20/10/2017 01:12:25.683 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.683 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:12:25.684 - [INFO] - unutarnja temperatura: false (neuspješne provjere: 1)
-20/10/2017 01:12:25.684 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.684 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.685 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:12:25.685 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.685 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.685 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.686 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:25.686 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:25.686 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.687 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:12:30.688 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.689 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.689 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.689 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.690 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.690 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.690 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:12:30.690 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.690 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.690 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.691 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.691 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:12:30.691 - [INFO] - vjetar: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.691 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.692 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.692 - [INFO] - paljenje/gašenje lampe: false (neuspješne provjere: 2)
-20/10/2017 01:12:30.692 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:12:30.693 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.693 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.694 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.694 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.695 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.695 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.695 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:12:30.696 - [INFO] - unutarnja temperatura: false (neuspješne provjere: 1)
-20/10/2017 01:12:30.696 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.697 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.697 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:12:30.698 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.698 - [INFO] - kontakt: false (neuspješne provjere: 1)
-20/10/2017 01:12:30.699 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.701 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.702 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:12:30.702 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.703 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:12:30.703 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.704 - [INFO] - dim: false (neuspješne provjere: 1)
-20/10/2017 01:12:30.704 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.705 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:12:30.705 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.705 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.706 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.706 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:30.707 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:30.707 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.707 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:12:35.708 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.708 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.708 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.708 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:12:35.709 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - vlaga: false (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:12:35.709 - [INFO] - vjetar: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - svjetlo: false (neuspješne provjere: 2)
-20/10/2017 01:12:35.709 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:12:35.709 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:12:35.709 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - dim: false (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - vlaga: false (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:12:35.709 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:12:35.709 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.709 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.709 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:12:35.710 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 1)
-20/10/2017 01:12:35.710 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:12:35.710 - [INFO] - unutarnja temperatura: false (neuspješne provjere: 2)
-20/10/2017 01:12:35.710 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.710 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.710 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:12:35.710 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.710 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.710 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.710 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:35.710 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:35.710 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.710 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:12:40.711 - [INFO] - vlaga: false (neuspješne provjere: 2)
-20/10/2017 01:12:40.712 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.712 - [INFO] - prepreka: false (neuspješne provjere: 2)
-20/10/2017 01:12:40.713 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.713 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.713 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.713 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:12:40.714 - [INFO] - dim: false (neuspješne provjere: 2)
-20/10/2017 01:12:40.714 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.714 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.714 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.714 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:12:40.715 - [INFO] - vjetar: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.715 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.715 - [INFO] - svjetlo: true (neuspješne provjere: 2)
-20/10/2017 01:12:40.715 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:12:40.715 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:12:40.716 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.716 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.716 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.716 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.716 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.717 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.717 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:12:40.717 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.717 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.718 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.718 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:12:40.718 - [INFO] - prepreka: false (neuspješne provjere: 1)
-20/10/2017 01:12:40.718 - [INFO] - kontakt: false (neuspješne provjere: 2)
-20/10/2017 01:12:40.719 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.719 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.720 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:12:40.720 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.720 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:12:40.721 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:12:40.721 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.722 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 2)
-20/10/2017 01:12:40.722 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:12:40.722 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.723 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.723 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.723 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:40.724 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:40.724 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.725 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:12:45.729 - [INFO] - vlaga: true (neuspješne provjere: 2)
-20/10/2017 01:12:45.729 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.729 - [INFO] - prepreka: true (neuspješne provjere: 2)
-20/10/2017 01:12:45.729 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.730 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.730 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 1)
-20/10/2017 01:12:45.730 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:12:45.730 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:12:45.730 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.730 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.730 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.730 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:12:45.730 - [INFO] - vjetar: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.730 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.730 - [INFO] - svjetlo: true (neuspješne provjere: 2)
-20/10/2017 01:12:45.730 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:12:45.730 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:12:45.730 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.730 - [INFO] - dim: false (neuspješne provjere: 2)
-20/10/2017 01:12:45.730 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.730 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.730 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.731 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.731 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:12:45.731 - [INFO] - unutarnja temperatura: false (neuspješne provjere: 2)
-20/10/2017 01:12:45.731 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.731 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.731 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:12:45.731 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.731 - [INFO] - kontakt: false (neuspješne provjere: 3)
-20/10/2017 01:12:45.731 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.731 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 1)
-20/10/2017 01:12:45.731 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:12:45.731 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.733 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:12:45.733 - [INFO] - Uklanjam senzor kontakt
-20/10/2017 01:12:45.733 - [INFO] - Postavljam senzor kontakt
-20/10/2017 01:12:45.733 - [INFO] - Inicijaliziram uređaj kontakt
-20/10/2017 01:12:45.733 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:12:45.733 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:12:45.733 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.733 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 2)
-20/10/2017 01:12:45.733 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:12:45.733 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.733 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.733 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.733 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:45.733 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:45.733 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.734 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:12:50.735 - [INFO] - vlaga: false (neuspješne provjere: 3)
-20/10/2017 01:12:50.735 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.735 - [INFO] - prepreka: true (neuspješne provjere: 2)
-20/10/2017 01:12:50.736 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.736 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.736 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.736 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:12:50.737 - [INFO] - Uklanjam senzor vlaga
-20/10/2017 01:12:50.737 - [INFO] - Postavljam senzor vlaga
-20/10/2017 01:12:50.737 - [INFO] - Inicijaliziram uređaj vlaga
-20/10/2017 01:12:50.737 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:12:50.737 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:12:50.737 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.738 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.738 - [INFO] - snimanje kamerom: false (neuspješne provjere: 1)
-20/10/2017 01:12:50.738 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:12:50.738 - [INFO] - vjetar: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.738 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.739 - [INFO] - svjetlo: false (neuspješne provjere: 3)
-20/10/2017 01:12:50.739 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:12:50.739 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:12:50.739 - [INFO] - Uklanjam senzor svjetlo
-20/10/2017 01:12:50.739 - [INFO] - Postavljam senzor svjetlo
-20/10/2017 01:12:50.739 - [INFO] - Inicijaliziram uređaj svjetlo
-20/10/2017 01:12:50.740 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:12:50.740 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.740 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:12:50.740 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.740 - [INFO] - kontakt: false (neuspješne provjere: 1)
-20/10/2017 01:12:50.740 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.741 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.741 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:12:50.741 - [INFO] - unutarnja temperatura: false (neuspješne provjere: 3)
-20/10/2017 01:12:50.741 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.742 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.742 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:12:50.742 - [INFO] - Uklanjam senzor unutarnja temperatura
-20/10/2017 01:12:50.742 - [INFO] - Postavljam senzor unutarnja temperatura
-20/10/2017 01:12:50.742 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
-20/10/2017 01:12:50.742 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:12:50.743 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.743 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.743 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.744 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.744 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:12:50.744 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.744 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:12:50.744 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:12:50.744 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.745 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 2)
-20/10/2017 01:12:50.745 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:12:50.745 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.745 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.745 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.745 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:50.745 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:50.745 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.746 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:12:55.747 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.747 - [INFO] - prepreka: true (neuspješne provjere: 2)
-20/10/2017 01:12:55.748 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.748 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.748 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.748 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.749 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:12:55.749 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:12:55.749 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.749 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.749 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.750 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:12:55.750 - [INFO] - vjetar: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.750 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.750 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.750 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:12:55.750 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:12:55.751 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.751 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:12:55.751 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.751 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.751 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.751 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.752 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:12:55.752 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.752 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.752 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.752 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:12:55.752 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.753 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.753 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.753 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.753 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:12:55.753 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.753 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:12:55.753 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:12:55.754 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.754 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 3)
-20/10/2017 01:12:55.754 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:12:55.754 - [INFO] - Uklanjam aktuator dizanje/spuštanje televizora
-20/10/2017 01:12:55.754 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
-20/10/2017 01:12:55.754 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
-20/10/2017 01:12:55.755 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:12:55.755 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.755 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.755 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.755 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:12:55.755 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:12:55.756 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.757 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:13:00.758 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.759 - [INFO] - prepreka: true (neuspješne provjere: 2)
-20/10/2017 01:13:00.759 - [INFO] - svjetlo: false (neuspješne provjere: 2)
-20/10/2017 01:13:00.759 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.759 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.760 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 2)
-20/10/2017 01:13:00.760 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:13:00.760 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:00.760 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.760 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.760 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.760 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:13:00.761 - [INFO] - vjetar: false (neuspješne provjere: 2)
-20/10/2017 01:13:00.761 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.761 - [INFO] - svjetlo: false (neuspješne provjere: 1)
-20/10/2017 01:13:00.761 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:00.761 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:13:00.761 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.761 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:00.762 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.762 - [INFO] - kontakt: false (neuspješne provjere: 2)
-20/10/2017 01:13:00.762 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.762 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.762 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:13:00.762 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.762 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.762 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.763 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:13:00.763 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.763 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.763 - [INFO] - kontakt: false (neuspješne provjere: 1)
-20/10/2017 01:13:00.763 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.763 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:00.763 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.764 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:13:00.766 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:00.767 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.767 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.767 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:13:00.768 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.768 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.768 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.769 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:00.769 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:00.769 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.770 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:13:05.771 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.771 - [INFO] - prepreka: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.772 - [INFO] - svjetlo: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.772 - [INFO] - vlaga: false (neuspješne provjere: 1)
-20/10/2017 01:13:05.772 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.772 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.772 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:13:05.773 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.773 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.773 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.773 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.773 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:13:05.773 - [INFO] - vjetar: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.774 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.774 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.774 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.774 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:13:05.774 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.774 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.774 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.774 - [INFO] - kontakt: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.775 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.775 - [INFO] - snimanje kamerom: false (neuspješne provjere: 2)
-20/10/2017 01:13:05.775 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:13:05.775 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.775 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.775 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.776 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:13:05.776 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.776 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.776 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.776 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.776 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.776 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.776 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:13:05.777 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:05.777 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.777 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.777 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:13:05.777 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.777 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.778 - [INFO] - svjetlo: false (neuspješne provjere: 1)
-20/10/2017 01:13:05.778 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:05.778 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:05.778 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.778 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:13:10.779 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.780 - [INFO] - prepreka: false (neuspješne provjere: 3)
-20/10/2017 01:13:10.780 - [INFO] - svjetlo: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.780 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.780 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.780 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.781 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:13:10.781 - [INFO] - Uklanjam senzor prepreka
-20/10/2017 01:13:10.781 - [INFO] - Postavljam senzor prepreka
-20/10/2017 01:13:10.781 - [INFO] - Inicijaliziram uređaj prepreka
-20/10/2017 01:13:10.781 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:13:10.781 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.781 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.782 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.782 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.782 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:13:10.782 - [INFO] - vjetar: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.782 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.783 - [INFO] - svjetlo: false (neuspješne provjere: 2)
-20/10/2017 01:13:10.783 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.783 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:13:10.783 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.783 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.783 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.783 - [INFO] - kontakt: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.784 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.784 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.784 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:13:10.784 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.784 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.784 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.788 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:13:10.789 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.789 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.789 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.790 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 2)
-20/10/2017 01:13:10.790 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.790 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.791 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:13:10.791 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:10.791 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.792 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.792 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:13:10.792 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.793 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.793 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.793 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:10.794 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:10.794 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.795 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:13:15.796 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.796 - [INFO] - svjetlo: false (neuspješne provjere: 3)
-20/10/2017 01:13:15.796 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.797 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.797 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.797 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 3)
-20/10/2017 01:13:15.797 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:13:15.797 - [INFO] - Uklanjam senzor svjetlo
-20/10/2017 01:13:15.797 - [INFO] - Postavljam senzor svjetlo
-20/10/2017 01:13:15.797 - [INFO] - Inicijaliziram uređaj svjetlo
-20/10/2017 01:13:15.797 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:13:15.798 - [INFO] - Uklanjam aktuator dizanje/spuštanje televizora
-20/10/2017 01:13:15.798 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
-20/10/2017 01:13:15.798 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
-20/10/2017 01:13:15.798 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:13:15.798 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:15.798 - [INFO] - vlaga: false (neuspješne provjere: 2)
-20/10/2017 01:13:15.798 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.798 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.799 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:13:15.799 - [INFO] - vjetar: true (neuspješne provjere: 2)
-20/10/2017 01:13:15.799 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.799 - [INFO] - svjetlo: false (neuspješne provjere: 3)
-20/10/2017 01:13:15.799 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:15.799 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - parkiralište
--------------------------------------------------------------
-20/10/2017 01:13:15.799 - [INFO] - Uklanjam senzor svjetlo
-20/10/2017 01:13:15.799 - [INFO] - Postavljam senzor svjetlo
-20/10/2017 01:13:15.800 - [INFO] - Inicijaliziram uređaj svjetlo
-20/10/2017 01:13:15.800 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorana 1
--------------------------------------------------------------
-20/10/2017 01:13:15.800 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.800 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:15.800 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.800 - [INFO] - kontakt: true (neuspješne provjere: 2)
-20/10/2017 01:13:15.800 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.800 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:15.800 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - dvorišna vrata
--------------------------------------------------------------
-20/10/2017 01:13:15.801 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.801 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.801 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.801 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:13:15.801 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.801 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.801 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.802 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 3)
-20/10/2017 01:13:15.802 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:15.802 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.802 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:13:15.802 - [INFO] - Uklanjam aktuator dizanje/spuštanje televizora
-20/10/2017 01:13:15.802 - [INFO] - Postavljam aktuator dizanje/spuštanje televizora
-20/10/2017 01:13:15.802 - [INFO] - Inicijaliziram uređaj dizanje/spuštanje televizora
-20/10/2017 01:13:15.802 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - ulazna vrata
--------------------------------------------------------------
-20/10/2017 01:13:15.802 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:15.803 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.803 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.803 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - sistem sala
--------------------------------------------------------------
-20/10/2017 01:13:15.803 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.803 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.803 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.803 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:15.803 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:15.804 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.804 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - knjižnica
--------------------------------------------------------------
-20/10/2017 01:13:20.805 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.805 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.805 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.805 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.806 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.806 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.806 - [INFO] - 
--------------------------------------------------------------
-	Radim provjeru uređaja za FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:13:20.806 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:20.806 - [INFO] - vlaga: false (neuspješne provjere: 3)
-20/10/2017 01:13:20.807 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.807 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.807 - [INFO] - 
+20/10/2017 02:16:55.605 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 3)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.606 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.606 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 16
+----------
+20/10/2017 02:16:55.607 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.614 - [INFO] - 
 -------------------------------------------------------------
 	Radim zamjene uređaja u FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:13:20.807 - [INFO] - Uklanjam senzor vlaga
-20/10/2017 01:13:20.807 - [INFO] - Postavljam senzor vlaga
-20/10/2017 01:13:20.807 - [INFO] - Inicijaliziram uređaj vlaga
-20/10/2017 01:13:20.807 - [INFO] - 
+20/10/2017 02:16:55.615 - [INFO] - Uklanjam senzor svjetlo
+20/10/2017 02:16:55.615 - [INFO] - Postavljam senzor svjetlo
+20/10/2017 02:16:55.615 - [INFO] - Inicijaliziram uređaj svjetlo
+20/10/2017 02:16:55.615 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:13:20.808 - [INFO] - vjetar: true (neuspješne provjere: 2)
-20/10/2017 01:13:20.808 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.808 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.808 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:20.808 - [INFO] - 
+20/10/2017 02:16:55.615 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.616 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.616 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.616 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:13:20.808 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.808 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:20.809 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.809 - [INFO] - kontakt: true (neuspješne provjere: 2)
-20/10/2017 01:13:20.809 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.809 - [INFO] - snimanje kamerom: false (neuspješne provjere: 3)
-20/10/2017 01:13:20.809 - [INFO] - 
+20/10/2017 02:16:55.617 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.618 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:16:55.618 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.618 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.618 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 94
+----------
+20/10/2017 02:16:55.618 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:16:55.619 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:16:55.619 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 3)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.619 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: false (neuspješne provjere: 1)
+Vrjednost: 42
+----------
+20/10/2017 02:16:55.619 - [INFO] - 
 -------------------------------------------------------------
 	Radim zamjene uređaja u FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:13:20.809 - [INFO] - Uklanjam aktuator snimanje kamerom
-20/10/2017 01:13:20.809 - [INFO] - Postavljam aktuator snimanje kamerom
-20/10/2017 01:13:20.809 - [INFO] - Inicijaliziram uređaj snimanje kamerom
-20/10/2017 01:13:20.809 - [INFO] - 
+20/10/2017 02:16:55.619 - [INFO] - Uklanjam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:16:55.619 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:16:55.619 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
+20/10/2017 02:16:55.620 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:20.810 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.810 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.810 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.810 - [INFO] - 
+20/10/2017 02:16:55.620 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:16:55.621 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 4
+----------
+20/10/2017 02:16:55.621 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.621 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:13:20.810 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.810 - [INFO] - prepreka: false (neuspješne provjere: 2)
-20/10/2017 01:13:20.810 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.811 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:20.811 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.811 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 1)
-20/10/2017 01:13:20.811 - [INFO] - 
+20/10/2017 02:16:55.621 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.621 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.622 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:16:55.622 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.622 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 27
+----------
+20/10/2017 02:16:55.622 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.622 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:20.811 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:20.811 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.811 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.812 - [INFO] - 
+20/10/2017 02:16:55.623 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.623 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:16:55.623 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 73
+----------
+20/10/2017 02:16:55.623 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:13:20.812 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.812 - [INFO] - dim: false (neuspješne provjere: 2)
-20/10/2017 01:13:20.812 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.813 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:20.813 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:20.813 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.814 - [INFO] - 
+20/10/2017 02:16:55.623 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.623 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 35.0
+----------
+20/10/2017 02:16:55.624 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.624 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:16:55.624 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.624 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:16:55.624 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.624 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:13:25.815 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.816 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.816 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.816 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.817 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.817 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.817 - [INFO] - 
+20/10/2017 02:17:00.625 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.626 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.626 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: false (neuspješne provjere: 3)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+-------------------------------------------------------------
+	Radim zamjene uređaja u FOI 1 - knjižnica
+-------------------------------------------------------------
+20/10/2017 02:17:00.627 - [INFO] - Uklanjam aktuator paljenje/gašenje lampe
+20/10/2017 02:17:00.627 - [INFO] - Postavljam aktuator paljenje/gašenje lampe
+20/10/2017 02:17:00.627 - [INFO] - Inicijaliziram uređaj paljenje/gašenje lampe
+20/10/2017 02:17:00.627 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:13:25.817 - [INFO] - dim: false (neuspješne provjere: 3)
-20/10/2017 01:13:25.817 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.817 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.818 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.818 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - restoran
--------------------------------------------------------------
-20/10/2017 01:13:25.818 - [INFO] - Uklanjam senzor dim
-20/10/2017 01:13:25.818 - [INFO] - Postavljam senzor dim
-20/10/2017 01:13:25.818 - [INFO] - Inicijaliziram uređaj dim
-20/10/2017 01:13:25.818 - [INFO] - 
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 16
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:13:25.818 - [INFO] - vjetar: true (neuspješne provjere: 2)
-20/10/2017 01:13:25.818 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.819 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.819 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:25.819 - [INFO] - 
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.627 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:13:25.819 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.819 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:25.819 - [INFO] - prepreka: false (neuspješne provjere: 1)
-20/10/2017 01:13:25.819 - [INFO] - kontakt: true (neuspješne provjere: 2)
-20/10/2017 01:13:25.819 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.820 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.820 - [INFO] - 
+20/10/2017 02:17:00.627 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 94
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 1)
+Vrjednost: 42
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:25.820 - [INFO] - dim: false (neuspješne provjere: 1)
-20/10/2017 01:13:25.820 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.820 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.820 - [INFO] - 
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 4
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:13:25.820 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.820 - [INFO] - prepreka: false (neuspješne provjere: 3)
-20/10/2017 01:13:25.821 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.821 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:25.821 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.821 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.821 - [INFO] - 
--------------------------------------------------------------
-	Radim zamjene uređaja u FOI 1 - vijećnica
--------------------------------------------------------------
-20/10/2017 01:13:25.821 - [INFO] - Uklanjam senzor prepreka
-20/10/2017 01:13:25.821 - [INFO] - Postavljam senzor prepreka
-20/10/2017 01:13:25.821 - [INFO] - Inicijaliziram uređaj prepreka
-20/10/2017 01:13:25.822 - [INFO] - 
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:17:00.628 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 27
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:25.822 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:25.822 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.822 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.822 - [INFO] - 
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 73
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:13:25.822 - [INFO] - unutarnja temperatura: false (neuspješne provjere: 1)
-20/10/2017 01:13:25.822 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:25.822 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.823 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:25.823 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:25.823 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.823 - [INFO] - 
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 35.0
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:00.629 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.630 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:13:30.825 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.826 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.826 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.826 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.826 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.827 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.827 - [INFO] - 
+20/10/2017 02:17:05.631 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.631 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.632 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.633 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:17:05.633 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.633 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.633 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:13:30.827 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.827 - [INFO] - dim: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.827 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.827 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.827 - [INFO] - 
+20/10/2017 02:17:05.634 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.634 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.634 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 16
+----------
+20/10/2017 02:17:05.634 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.634 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:13:30.828 - [INFO] - vjetar: true (neuspješne provjere: 2)
-20/10/2017 01:13:30.828 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.828 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.828 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:30.828 - [INFO] - 
+20/10/2017 02:17:05.635 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.635 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.635 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.635 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:13:30.828 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.828 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:30.828 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.828 - [INFO] - kontakt: true (neuspješne provjere: 2)
-20/10/2017 01:13:30.828 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.829 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.829 - [INFO] - 
+20/10/2017 02:17:05.636 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.636 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:17:05.637 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.637 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.637 - [INFO] - 
+Uređaj: vlaga
+Status: false (neuspješne provjere: 1)
+Vrjednost: 94
+----------
+20/10/2017 02:17:05.637 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:17:05.637 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:17:05.638 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 1)
+Vrjednost: 42
+----------
+20/10/2017 02:17:05.638 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.638 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:30.829 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.829 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.829 - [INFO] - snimanje kamerom: false (neuspješne provjere: 2)
-20/10/2017 01:13:30.829 - [INFO] - 
+20/10/2017 02:17:05.639 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:17:05.640 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 4
+----------
+20/10/2017 02:17:05.640 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.640 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:13:30.829 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.829 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.830 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.830 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:30.830 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.830 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.830 - [INFO] - 
+20/10/2017 02:17:05.641 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.641 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.641 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:17:05.642 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.642 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 27
+----------
+20/10/2017 02:17:05.642 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.642 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:30.830 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:30.830 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.830 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.830 - [INFO] - 
+20/10/2017 02:17:05.642 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.643 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:17:05.643 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: false (neuspješne provjere: 1)
+Vrjednost: 73
+----------
+20/10/2017 02:17:05.643 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:13:30.831 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.831 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:30.831 - [INFO] - svjetlo: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.831 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:30.831 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:30.831 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.832 - [INFO] - 
+20/10/2017 02:17:05.643 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.644 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 35.0
+----------
+20/10/2017 02:17:05.644 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.645 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:05.645 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.645 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:05.645 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.646 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:13:35.834 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.834 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.834 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.835 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.835 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.835 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.835 - [INFO] - 
+20/10/2017 02:17:10.647 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.647 - [INFO] - 
+Uređaj: prepreka
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.648 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.648 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:17:10.649 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.650 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.650 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:13:35.835 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.835 - [INFO] - dim: false (neuspješne provjere: 1)
-20/10/2017 01:13:35.835 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.836 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.836 - [INFO] - 
+20/10/2017 02:17:10.650 - [INFO] - 
+Uređaj: dim
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.651 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.651 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 16
+----------
+20/10/2017 02:17:10.651 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.651 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:13:35.836 - [INFO] - vjetar: true (neuspješne provjere: 2)
-20/10/2017 01:13:35.836 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.836 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.836 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:35.836 - [INFO] - 
+20/10/2017 02:17:10.652 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.652 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.652 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.652 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:13:35.837 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.837 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:35.837 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.837 - [INFO] - kontakt: true (neuspješne provjere: 2)
-20/10/2017 01:13:35.837 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.837 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.837 - [INFO] - 
+20/10/2017 02:17:10.653 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.653 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:17:10.653 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.653 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.654 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 94
+----------
+20/10/2017 02:17:10.654 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:17:10.654 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:17:10.654 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 1)
+Vrjednost: 42
+----------
+20/10/2017 02:17:10.655 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.655 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:35.837 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.838 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.838 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:35.838 - [INFO] - 
+20/10/2017 02:17:10.655 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:17:10.655 - [INFO] - 
+Uređaj: vlaga
+Status: false (neuspješne provjere: 2)
+Vrjednost: 4
+----------
+20/10/2017 02:17:10.655 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: false (neuspješne provjere: 2)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.656 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:13:35.838 - [INFO] - prepreka: false (neuspješne provjere: 2)
-20/10/2017 01:13:35.838 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.838 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.838 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:35.839 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.839 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.839 - [INFO] - 
+20/10/2017 02:17:10.656 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.656 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.656 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:17:10.656 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.656 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 27
+----------
+20/10/2017 02:17:10.656 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.656 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:35.839 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:35.839 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.839 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.839 - [INFO] - 
+20/10/2017 02:17:10.657 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.657 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:17:10.657 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: false (neuspješne provjere: 2)
+Vrjednost: 73
+----------
+20/10/2017 02:17:10.657 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:13:35.839 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.840 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:35.840 - [INFO] - svjetlo: false (neuspješne provjere: 2)
-20/10/2017 01:13:35.840 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:35.840 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:35.840 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.840 - [INFO] - 
+20/10/2017 02:17:10.657 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.657 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 35.0
+----------
+20/10/2017 02:17:10.658 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.658 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:10.658 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.667 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:10.667 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.667 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - knjižnica
 -------------------------------------------------------------
-20/10/2017 01:13:40.843 - [INFO] - kontakt: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.843 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.843 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.844 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.844 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.844 - [INFO] - dizanje/spuštanje televizora: false (neuspješne provjere: 1)
-20/10/2017 01:13:40.844 - [INFO] - 
+20/10/2017 02:17:15.668 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.669 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.669 - [INFO] - 
+Uređaj: kontakt
+Status: false (neuspješne provjere: 2)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.670 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:17:15.670 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.670 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.670 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - restoran
 -------------------------------------------------------------
-20/10/2017 01:13:40.844 - [INFO] - vlaga: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.845 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.845 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.845 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.845 - [INFO] - 
+20/10/2017 02:17:15.670 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.671 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.671 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: false (neuspješne provjere: 1)
+Vrjednost: 16
+----------
+20/10/2017 02:17:15.671 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.671 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - parkiralište
 -------------------------------------------------------------
-20/10/2017 01:13:40.846 - [INFO] - vjetar: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.846 - [INFO] - svjetlo: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.846 - [INFO] - svjetlo: false (neuspješne provjere: 1)
-20/10/2017 01:13:40.846 - [INFO] - paljenje/gašenje lampe: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.846 - [INFO] - 
+20/10/2017 02:17:15.671 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.671 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.671 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.672 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorana 1
 -------------------------------------------------------------
-20/10/2017 01:13:40.846 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.847 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.847 - [INFO] - prepreka: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.847 - [INFO] - kontakt: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.847 - [INFO] - vlaga: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.847 - [INFO] - snimanje kamerom: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.847 - [INFO] - 
+20/10/2017 02:17:15.672 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.672 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:17:15.672 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.673 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.673 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 94
+----------
+20/10/2017 02:17:15.673 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:17:15.673 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:17:15.673 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 1)
+Vrjednost: 42
+----------
+20/10/2017 02:17:15.673 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.673 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - dvorišna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:40.847 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.847 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.847 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.847 - [INFO] - 
+20/10/2017 02:17:15.674 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:17:15.674 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 2)
+Vrjednost: 4
+----------
+20/10/2017 02:17:15.675 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 2)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.675 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - vijećnica
 -------------------------------------------------------------
-20/10/2017 01:13:40.847 - [INFO] - prepreka: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.847 - [INFO] - kontakt: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.848 - [INFO] - prepreka: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.848 - [INFO] - snimanje kamerom: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.848 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.848 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.848 - [INFO] - 
+20/10/2017 02:17:15.675 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.675 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.676 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:17:15.676 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.677 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: false (neuspješne provjere: 1)
+Vrjednost: 27
+----------
+20/10/2017 02:17:15.677 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.677 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - ulazna vrata
 -------------------------------------------------------------
-20/10/2017 01:13:40.848 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.848 - [INFO] - dim: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.848 - [INFO] - dizanje/spuštanje televizora: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.849 - [INFO] - 
+20/10/2017 02:17:15.677 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.677 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:17:15.678 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 2)
+Vrjednost: 73
+----------
+20/10/2017 02:17:15.678 - [INFO] - 
 -------------------------------------------------------------
 	Radim provjeru uređaja za FOI 1 - sistem sala
 -------------------------------------------------------------
-20/10/2017 01:13:40.849 - [INFO] - unutarnja temperatura: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.849 - [INFO] - dim: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.849 - [INFO] - svjetlo: true (neuspješne provjere: 2)
-20/10/2017 01:13:40.849 - [INFO] - snimanje kamerom: true (neuspješne provjere: 1)
-20/10/2017 01:13:40.849 - [INFO] - otvaranje/zatvaranje vrata: true (neuspješne provjere: 0)
-20/10/2017 01:13:40.849 - [INFO] - dizanje/spuštanje platna za ploču: true (neuspješne provjere: 0)
+20/10/2017 02:17:15.678 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.678 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: false (neuspješne provjere: 2)
+Vrjednost: 35.0
+----------
+20/10/2017 02:17:15.679 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.679 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:15.679 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: false (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.679 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:15.679 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.680 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - knjižnica
+-------------------------------------------------------------
+20/10/2017 02:17:20.681 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.681 - [INFO] - 
+Uređaj: prepreka
+Status: false (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.682 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 2)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.683 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:17:20.683 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.683 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.683 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - restoran
+-------------------------------------------------------------
+20/10/2017 02:17:20.684 - [INFO] - 
+Uređaj: dim
+Status: false (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.684 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.684 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 1)
+Vrjednost: 16
+----------
+20/10/2017 02:17:20.684 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.685 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - parkiralište
+-------------------------------------------------------------
+20/10/2017 02:17:20.685 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.685 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.685 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.685 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - dvorana 1
+-------------------------------------------------------------
+20/10/2017 02:17:20.686 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.686 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 3.0
+----------
+20/10/2017 02:17:20.687 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.687 - [INFO] - 
+Uređaj: svjetlo
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.687 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 94
+----------
+20/10/2017 02:17:20.687 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 0)
+Vrjednost: 83
+----------
+20/10/2017 02:17:20.687 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:17:20.688 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 1)
+Vrjednost: 42
+----------
+20/10/2017 02:17:20.688 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.688 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+20/10/2017 02:17:20.689 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:17:20.689 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 2)
+Vrjednost: 4
+----------
+20/10/2017 02:17:20.689 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: false (neuspješne provjere: 3)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.689 - [INFO] - 
+-------------------------------------------------------------
+	Radim zamjene uređaja u FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+20/10/2017 02:17:20.690 - [INFO] - Uklanjam aktuator snimanje kamerom
+20/10/2017 02:17:20.690 - [INFO] - Postavljam aktuator snimanje kamerom
+20/10/2017 02:17:20.690 - [INFO] - Inicijaliziram uređaj snimanje kamerom
+20/10/2017 02:17:20.690 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - vijećnica
+-------------------------------------------------------------
+20/10/2017 02:17:20.690 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.691 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.692 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:17:20.693 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.693 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 1)
+Vrjednost: 27
+----------
+20/10/2017 02:17:20.693 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.693 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+20/10/2017 02:17:20.693 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.694 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:17:20.694 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 2)
+Vrjednost: 73
+----------
+20/10/2017 02:17:20.694 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - sistem sala
+-------------------------------------------------------------
+20/10/2017 02:17:20.694 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.695 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 2)
+Vrjednost: 35.0
+----------
+20/10/2017 02:17:20.695 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.695 - [INFO] - 
+Uređaj: dim
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:20.695 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.696 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:20.696 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.696 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - knjižnica
+-------------------------------------------------------------
+20/10/2017 02:17:25.697 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.698 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.698 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 2)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.699 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 1)
+Vrjednost: 37.0
+----------
+20/10/2017 02:17:25.699 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.699 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.699 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - restoran
+-------------------------------------------------------------
+20/10/2017 02:17:25.699 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.699 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.700 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 1)
+Vrjednost: 16
+----------
+20/10/2017 02:17:25.700 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.700 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - parkiralište
+-------------------------------------------------------------
+20/10/2017 02:17:25.700 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.700 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.700 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.701 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - dvorana 1
+-------------------------------------------------------------
+20/10/2017 02:17:25.701 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.701 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: false (neuspješne provjere: 2)
+Vrjednost: 3.0
+----------
+20/10/2017 02:17:25.701 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.701 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.702 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 1)
+Vrjednost: 94
+----------
+20/10/2017 02:17:25.702 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: false (neuspješne provjere: 1)
+Vrjednost: 83
+----------
+20/10/2017 02:17:25.702 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: true (neuspješne provjere: 0)
+Vrjednost: 121
+----------
+20/10/2017 02:17:25.702 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 1)
+Vrjednost: 42
+----------
+20/10/2017 02:17:25.702 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.702 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - dvorišna vrata
+-------------------------------------------------------------
+20/10/2017 02:17:25.703 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 38.0
+----------
+20/10/2017 02:17:25.703 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 2)
+Vrjednost: 4
+----------
+20/10/2017 02:17:25.703 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.704 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - vijećnica
+-------------------------------------------------------------
+20/10/2017 02:17:25.704 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.704 - [INFO] - 
+Uređaj: svjetlo
+Status: true (neuspješne provjere: 1)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.704 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: true (neuspješne provjere: 0)
+Vrjednost: 17.0
+----------
+20/10/2017 02:17:25.705 - [INFO] - 
+Uređaj: snimanje kamerom
+Status: false (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.705 - [INFO] - 
+Uređaj: dizanje/spuštanje platna za ploču
+Status: false (neuspješne provjere: 2)
+Vrjednost: 27
+----------
+20/10/2017 02:17:25.705 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.705 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - ulazna vrata
+-------------------------------------------------------------
+20/10/2017 02:17:25.705 - [INFO] - 
+Uređaj: prepreka
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.706 - [INFO] - 
+Uređaj: vlaga
+Status: true (neuspješne provjere: 0)
+Vrjednost: 71
+----------
+20/10/2017 02:17:25.706 - [INFO] - 
+Uređaj: dizanje/spuštanje televizora
+Status: true (neuspješne provjere: 2)
+Vrjednost: 73
+----------
+20/10/2017 02:17:25.706 - [INFO] - 
+-------------------------------------------------------------
+	Radim provjeru uređaja za FOI 1 - sistem sala
+-------------------------------------------------------------
+20/10/2017 02:17:25.707 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.708 - [INFO] - 
+Uređaj: unutarnja temperatura
+Status: false (neuspješne provjere: 3)
+Vrjednost: 35.0
+----------
+20/10/2017 02:17:25.709 - [INFO] - 
+Uređaj: kontakt
+Status: true (neuspješne provjere: 0)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.709 - [INFO] - 
+Uređaj: dim
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.709 - [INFO] - 
+Uređaj: paljenje/gašenje lampe
+Status: true (neuspješne provjere: 2)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.709 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: false (neuspješne provjere: 3)
+Vrjednost: ne
+----------
+20/10/2017 02:17:25.709 - [INFO] - 
+Uređaj: otvaranje/zatvaranje vrata
+Status: true (neuspješne provjere: 1)
+Vrjednost: da
+----------
+20/10/2017 02:17:25.709 - [INFO] - 
+-------------------------------------------------------------
+	Radim zamjene uređaja u FOI 1 - sistem sala
+-------------------------------------------------------------
+20/10/2017 02:17:25.709 - [INFO] - Uklanjam senzor unutarnja temperatura
+20/10/2017 02:17:25.709 - [INFO] - Postavljam senzor unutarnja temperatura
+20/10/2017 02:17:25.709 - [INFO] - Inicijaliziram uređaj unutarnja temperatura
+20/10/2017 02:17:25.709 - [INFO] - 
+-------------------------------------------------------------
+	Radim zamjene uređaja u FOI 1 - sistem sala
+-------------------------------------------------------------
+20/10/2017 02:17:25.709 - [INFO] - Uklanjam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:17:25.710 - [INFO] - Postavljam aktuator otvaranje/zatvaranje vrata
+20/10/2017 02:17:25.710 - [INFO] - Inicijaliziram uređaj otvaranje/zatvaranje vrata
