@@ -83,52 +83,12 @@ public class ToF {
                         i++;
                         Thread.sleep(Integer.parseInt(this.args[5]) * 1000);
                         System.out.println("Dretva nesta radi...");
-                        HashMap<String, Uredjaj> uredjajiZamjena = new HashMap<>();
 
                         for (Mjesto mjesto : this.mjesta.values()) {
-                            this.logs.log("\n-------------------------------------------------------------"
-                                    + "\n\tRadim provjeru uređaja za " + mjesto.naziv
-                                    + "\n-------------------------------------------------------------", "info");
-                            for (Senzor senzor : mjesto.senzori) {
-                                this.logs.log(senzor.naziv + ": " + senzor.getStatus() + " (neuspješne provjere: " + senzor.neuspjesneProvjere + ")", "info");
-                                if (senzor.neuspjesneProvjere == 3) {
-                                    uredjajiZamjena.put(mjesto.naziv, senzor);
-                                }
-                            }
-
-                            for (Aktuator aktuator : mjesto.aktuatori) {
-                                this.logs.log(aktuator.naziv + ": " + aktuator.getStatus() + " (neuspješne provjere: " + aktuator.neuspjesneProvjere + ")", "info");
-                                if (aktuator.neuspjesneProvjere == 3) {
-                                    uredjajiZamjena.put(mjesto.naziv, aktuator);
-                                }
-                            }
-
+                           mjesto.provjeriUredjaje();
                         }
 
-                        if (!uredjajiZamjena.isEmpty()) {
-                            uredjajiZamjena.entrySet().stream().map((entry) -> {
-                                String mjesto = entry.getKey();
-                                Uredjaj stari = entry.getValue();
-                                this.logs.log("\n-------------------------------------------------------------"
-                                        + "\n\tRadim zamjene uređaja u " + mjesto
-                                        + "\n-------------------------------------------------------------", "info");
-                                Uredjaj noviUredjaj = (Uredjaj) stari.clone();
-                                if (stari instanceof Senzor) {
-                                    System.out.println("SENZOR");
-                                    this.mjesta.get(mjesto).removeSenzor((Senzor) stari);
-                                    this.mjesta.get(mjesto).setSenzor((Senzor) noviUredjaj);
-                                } else if (stari instanceof Aktuator) {
-                                    System.out.println("AKTUATOR");
-                                    this.mjesta.get(mjesto).removeAktuator((Aktuator) stari);
-                                    this.mjesta.get(mjesto).setAktuator((Aktuator) noviUredjaj);
-                                }
-                                return noviUredjaj;
-                            }).forEachOrdered((noviUredjaj) -> {
-                                noviUredjaj.inicijalizacija();
-                            });
-                            uredjajiZamjena.clear();
-
-                        }
+                        
 
                     } catch (InterruptedException ex) {
                         System.out.println("Problem sa dretvom...");

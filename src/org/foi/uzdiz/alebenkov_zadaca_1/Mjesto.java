@@ -6,6 +6,7 @@
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 
@@ -68,6 +69,48 @@ public class Mjesto {
             }
 
         }
+    }
+
+    public void provjeriUredjaje() {
+        ArrayList<Uredjaj> uredjajiZamjena = new ArrayList<>();
+
+        this.logs.log("\n-------------------------------------------------------------"
+                + "\n\tRadim provjeru uređaja za " + this.naziv
+                + "\n-------------------------------------------------------------", "info");
+        this.senzori.stream().map((senzor) -> {
+            this.logs.log(senzor.naziv + ": " + senzor.getStatus() + " (neuspješne provjere: " + senzor.neuspjesneProvjere + ")", "info");
+            return senzor;
+        }).filter((senzor) -> (senzor.neuspjesneProvjere == 3)).forEachOrdered((senzor) -> {
+            uredjajiZamjena.add(senzor);
+        });
+
+        this.aktuatori.stream().map((aktuator) -> {
+            this.logs.log(aktuator.naziv + ": " + aktuator.getStatus() + " (neuspješne provjere: " + aktuator.neuspjesneProvjere + ")", "info");
+            return aktuator;
+        }).filter((aktuator) -> (aktuator.neuspjesneProvjere == 3)).forEachOrdered((aktuator) -> {
+            uredjajiZamjena.add(aktuator);
+        });
+
+        if (!uredjajiZamjena.isEmpty()) {
+            uredjajiZamjena.forEach(stari -> {
+                this.logs.log("\n-------------------------------------------------------------"
+                        + "\n\tRadim zamjene uređaja u " + this.naziv
+                        + "\n-------------------------------------------------------------", "info");
+                Uredjaj noviUredjaj = (Uredjaj) stari.clone();
+                if (stari instanceof Senzor) {
+                    this.removeSenzor((Senzor) stari);
+                    this.setSenzor((Senzor) noviUredjaj);
+                } else if (stari instanceof Aktuator) {
+                    this.removeAktuator((Aktuator) stari);
+                    this.setAktuator((Aktuator) noviUredjaj);
+                }
+                noviUredjaj.inicijalizacija();
+
+            });
+            uredjajiZamjena.clear();
+
+        }
+
     }
 
 }
