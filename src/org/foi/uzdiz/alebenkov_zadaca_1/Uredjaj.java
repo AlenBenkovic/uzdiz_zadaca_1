@@ -6,6 +6,7 @@
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
 import java.util.Random;
+import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 
 /**
  *
@@ -22,6 +23,8 @@ public abstract class Uredjaj implements Cloneable {
 
     public boolean onemogucen = false;
     public int neuspjesneProvjere = 0;
+
+    FoiLogger logs = FoiLogger.getInstance();
 
     public Uredjaj(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         this.naziv = naziv;
@@ -40,7 +43,6 @@ public abstract class Uredjaj implements Cloneable {
         this.onemogucen = onemogucen;
     }
 
-
     public boolean getStatus() {
         Random rn = new Random();
         int random = rn.nextInt(101);
@@ -52,6 +54,7 @@ public abstract class Uredjaj implements Cloneable {
     }
 
     public boolean inicijalizacija() {
+        this.logs.log("Inicijaliziram uređaj " + this.naziv, "info");
         this.onemogucen = false;
         this.neuspjesneProvjere = 0;
         Random rn = new Random();

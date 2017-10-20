@@ -45,8 +45,9 @@ public class ToF {
             System.out.println("#Inicijalizacija");
             for (Mjesto mjesto : this.mjesta.values()) {
 
-                this.logs.log("\n-------------------------------------------------------\n\tInicijaliziram uređaje za " + mjesto.naziv
-                        + "\n-------------------------------------------------------", "info");
+                this.logs.log("\n-------------------------------------------------------------"
+                        + "\n\tInicijaliziram uređaje za " + mjesto.naziv
+                        + "\n-------------------------------------------------------------", "info");
                 for (Senzor senzor : mjesto.senzori) {
                     if (!senzor.inicijalizacija()) {
                         senzor.setOnemogucen(true);
@@ -82,44 +83,53 @@ public class ToF {
                         i++;
                         Thread.sleep(Integer.parseInt(this.args[5]) * 1000);
                         System.out.println("Dretva nesta radi...");
-                        HashMap<String, Senzor> senzoriZamjena = new HashMap<>();
+                        HashMap<String, Uredjaj> uredjajiZamjena = new HashMap<>();
 
                         for (Mjesto mjesto : this.mjesta.values()) {
-                            System.out.println("##Radim provjeru uredjaja za " + mjesto.naziv);
+                            this.logs.log("\n-------------------------------------------------------------"
+                                    + "\n\tRadim provjeru uređaja za " + mjesto.naziv
+                                    + "\n-------------------------------------------------------------", "info");
                             for (Senzor senzor : mjesto.senzori) {
-
-                                System.out.println("------------------------------");
-                                System.out.println(senzor.naziv);
-                                System.out.println(senzor.getStatus());
-                                System.out.println(senzor.neuspjesneProvjere);
+                                this.logs.log(senzor.naziv + ": " + senzor.getStatus() + " (neuspješne provjere: " + senzor.neuspjesneProvjere + ")", "info");
                                 if (senzor.neuspjesneProvjere == 3) {
-
-                                    senzoriZamjena.put(mjesto.naziv, senzor);
-
+                                    uredjajiZamjena.put(mjesto.naziv, senzor);
                                 }
-
                             }
 
                             for (Aktuator aktuator : mjesto.aktuatori) {
-
+                                this.logs.log(aktuator.naziv + ": " + aktuator.getStatus() + " (neuspješne provjere: " + aktuator.neuspjesneProvjere + ")", "info");
+                                if (aktuator.neuspjesneProvjere == 3) {
+                                    uredjajiZamjena.put(mjesto.naziv, aktuator);
+                                }
                             }
 
                         }
 
-                        for (Map.Entry<String, Senzor> entry : senzoriZamjena.entrySet()) {
-
-                            String mjesto = entry.getKey();
-                            Senzor stari = entry.getValue();
-
-                            System.out.println("*******GASIM****** " + stari.naziv);
-                            this.mjesta.get(mjesto).removeSenzor(stari);
-
-                            Uredjaj noviSenzor = (Senzor) stari.clone();
-                            noviSenzor.inicijalizacija();
-                            System.out.println("****DODAJEM NOVI****" + noviSenzor.naziv);
-                            this.mjesta.get(mjesto).setSenzor((Senzor) noviSenzor);
+                        if (!uredjajiZamjena.isEmpty()) {
+                            uredjajiZamjena.entrySet().stream().map((entry) -> {
+                                String mjesto = entry.getKey();
+                                Uredjaj stari = entry.getValue();
+                                this.logs.log("\n-------------------------------------------------------------"
+                                        + "\n\tRadim zamjene uređaja u " + mjesto
+                                        + "\n-------------------------------------------------------------", "info");
+                                Uredjaj noviUredjaj = (Uredjaj) stari.clone();
+                                if (stari instanceof Senzor) {
+                                    System.out.println("SENZOR");
+                                    this.mjesta.get(mjesto).removeSenzor((Senzor) stari);
+                                    this.mjesta.get(mjesto).setSenzor((Senzor) noviUredjaj);
+                                } else if (stari instanceof Aktuator) {
+                                    System.out.println("AKTUATOR");
+                                    this.mjesta.get(mjesto).removeAktuator((Aktuator) stari);
+                                    this.mjesta.get(mjesto).setAktuator((Aktuator) noviUredjaj);
+                                }
+                                return noviUredjaj;
+                            }).forEachOrdered((noviUredjaj) -> {
+                                noviUredjaj.inicijalizacija();
+                            });
+                            uredjajiZamjena.clear();
 
                         }
+
                     } catch (InterruptedException ex) {
                         System.out.println("Problem sa dretvom...");
                     }

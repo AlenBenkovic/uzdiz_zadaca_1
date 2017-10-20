@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
+import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 
 /**
  *
@@ -23,6 +24,7 @@ public class ToFFactory implements AbstractFactory {
     ArrayList<Aktuator> aktuatori = new ArrayList<>();
     ArrayList<String[]> popisSenzora = new ArrayList<>();
     ArrayList<String[]> popisAktuatora = new ArrayList<>();
+    FoiLogger logs = FoiLogger.getInstance();
 
     public ToFFactory() {
         System.out.println("Konstruktor ToF Factory-a");
@@ -32,21 +34,15 @@ public class ToFFactory implements AbstractFactory {
     @Override
     public Mjesto kreirajMjesto(String[] podaciMjesta) {
         Mjesto mjesto = new Mjesto(podaciMjesta[0], Integer.parseInt(podaciMjesta[1]), Integer.parseInt(podaciMjesta[2]), Integer.parseInt(podaciMjesta[3]));
-        System.out.println("Kreirano mjesto " + mjesto.naziv + " | Senzori: " + mjesto.brojSenzora + " | Aktuatori: " + mjesto.brojAktuatora + " | Tip: " + mjesto.tip);
         for (int i = 0; i < mjesto.brojSenzora; i++) {
-            try {
-                mjesto.setSenzor(this.dohvatiRandomSenzor(mjesto.tip));
-            } catch (Exception e) {
-                System.out.println("Nema vise odgovarajucih senzora");
-            }
+
+            mjesto.setSenzor(this.dohvatiRandomSenzor(mjesto.tip));
+
         }
 
         for (int i = 0; i < mjesto.brojAktuatora; i++) {
-            try {
-                mjesto.setAktuator(this.dohvatiRandomAktuator(mjesto.tip));
-            } catch (Exception e) {
-                System.out.println("Nema vise odgovarajucih aktuatora");
-            }
+
+            mjesto.setAktuator(this.dohvatiRandomAktuator(mjesto.tip));
 
         }
         return mjesto;
