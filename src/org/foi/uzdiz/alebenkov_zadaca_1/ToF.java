@@ -5,10 +5,10 @@
  */
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
+import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import static jdk.nashorn.internal.objects.NativeArray.map;
 
 /**
  *
@@ -26,9 +26,11 @@ public class ToF {
         ArrayList<Uredjaj> senzori = new ArrayList<>();
         ArrayList<Uredjaj> aktuatori = new ArrayList<>();
         String[] args = null;
+        FoiLogger logs = FoiLogger.getInstance();
 
         public ToFBuilder(String[] args) {
             this.args = args;
+            this.logs.init(args[7]);
         }
 
         public ToFBuilder postaviUredjaje() {
@@ -42,27 +44,30 @@ public class ToF {
         public ToFBuilder inicijalizacija() {
             System.out.println("#Inicijalizacija");
             for (Mjesto mjesto : this.mjesta.values()) {
-                System.out.println("##Inicijaliziram uredjaje za " + mjesto.naziv);
+
+                this.logs.log("\n-------------------------------------------------------\n\tInicijaliziram uređaje za " + mjesto.naziv
+                        + "\n-------------------------------------------------------", "info");
                 for (Senzor senzor : mjesto.senzori) {
                     if (!senzor.inicijalizacija()) {
                         senzor.setOnemogucen(true);
-                        System.out.println(senzor.naziv + " FAILED");
+                        this.logs.log(senzor.naziv + " FAILED", "warning");
+
                     } else {
-                        System.out.println(senzor.naziv + " OK");
+                        this.logs.log(senzor.naziv + " OK", "info");
+
                     }
                 }
 
                 for (Aktuator aktuator : mjesto.aktuatori) {
                     if (!aktuator.inicijalizacija()) {
                         aktuator.setOnemogucen(true);
-                        System.out.println(aktuator.naziv + " FAILED");
+                        this.logs.log(aktuator.naziv + " FAILED", "warning");
                     } else {
-                        System.out.println(aktuator.naziv + " OK");
+                        this.logs.log(aktuator.naziv + " OK", "info");
                     }
                 }
 
                 mjesto.makniOnemogucene();
-                System.out.println("------------------------------------------");
             }
 
             return this;
@@ -105,16 +110,14 @@ public class ToF {
 
                             String mjesto = entry.getKey();
                             Senzor stari = entry.getValue();
-                            
+
                             System.out.println("*******GASIM****** " + stari.naziv);
                             this.mjesta.get(mjesto).removeSenzor(stari);
-                            
+
                             Uredjaj noviSenzor = (Senzor) stari.clone();
                             noviSenzor.inicijalizacija();
                             System.out.println("****DODAJEM NOVI****" + noviSenzor.naziv);
                             this.mjesta.get(mjesto).setSenzor((Senzor) noviSenzor);
-
-                            
 
                         }
                     } catch (InterruptedException ex) {

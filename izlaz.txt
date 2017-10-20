@@ -1,0 +1,78 @@
+20/10/2017 10:41:53.047 - [INFO] - 
+-------------------------------------------------------
+	Inicijaliziram uređaje za FOI 1 - knjižnica
+-------------------------------------------------------
+20/10/2017 10:41:53.048 - [INFO] - svjetlo OK
+20/10/2017 10:41:53.048 - [INFO] - vlaga OK
+20/10/2017 10:41:53.049 - [INFO] - vlaga OK
+20/10/2017 10:41:53.049 - [INFO] - kontakt OK
+20/10/2017 10:41:53.049 - [INFO] - snimanje kamerom OK
+20/10/2017 10:41:53.049 - [INFO] - dizanje/spuštanje televizora OK
+20/10/2017 10:41:53.049 - [INFO] - 
+-------------------------------------------------------
+	Inicijaliziram uređaje za FOI 1 - restoran
+-------------------------------------------------------
+20/10/2017 10:41:53.050 - [INFO] - unutarnja temperatura OK
+20/10/2017 10:41:53.050 - [INFO] - prepreka OK
+20/10/2017 10:41:53.050 - [INFO] - vlaga OK
+20/10/2017 10:41:53.050 - [INFO] - prepreka OK
+20/10/2017 10:41:53.051 - [INFO] - dizanje/spuštanje televizora OK
+20/10/2017 10:41:53.051 - [INFO] - otvaranje/zatvaranje vrata OK
+20/10/2017 10:41:53.051 - [INFO] - 
+-------------------------------------------------------
+	Inicijaliziram uređaje za FOI 1 - parkiralište
+-------------------------------------------------------
+20/10/2017 10:41:53.051 - [INFO] - prepreka OK
+20/10/2017 10:41:53.051 - [INFO] - vjetar OK
+20/10/2017 10:41:53.051 - [WARNING] - vlaga FAILED
+20/10/2017 10:41:53.051 - [INFO] - paljenje/gašenje lampe OK
+20/10/2017 10:41:53.051 - [INFO] - 
+-------------------------------------------------------
+	Inicijaliziram uređaje za FOI 1 - dvorana 1
+-------------------------------------------------------
+20/10/2017 10:41:53.052 - [INFO] - dim OK
+20/10/2017 10:41:53.052 - [INFO] - unutarnja temperatura OK
+20/10/2017 10:41:53.052 - [INFO] - kontakt OK
+20/10/2017 10:41:53.052 - [INFO] - svjetlo OK
+20/10/2017 10:41:53.052 - [WARNING] - svjetlo FAILED
+20/10/2017 10:41:53.052 - [WARNING] - vlaga FAILED
+20/10/2017 10:41:53.052 - [INFO] - snimanje kamerom OK
+20/10/2017 10:41:53.052 - [INFO] - paljenje/gašenje lampe OK
+20/10/2017 10:41:53.053 - [INFO] - dizanje/spuštanje platna za ploču OK
+20/10/2017 10:41:53.053 - [INFO] - dizanje/spuštanje televizora OK
+20/10/2017 10:41:53.053 - [INFO] - 
+-------------------------------------------------------
+	Inicijaliziram uređaje za FOI 1 - dvorišna vrata
+-------------------------------------------------------
+20/10/2017 10:41:53.054 - [INFO] - kontakt OK
+20/10/2017 10:41:53.054 - [INFO] - kontakt OK
+20/10/2017 10:41:53.054 - [INFO] - dizanje/spuštanje televizora OK
+20/10/2017 10:41:53.055 - [INFO] - 
+-------------------------------------------------------
+	Inicijaliziram uređaje za FOI 1 - vijećnica
+-------------------------------------------------------
+20/10/2017 10:41:53.058 - [INFO] - vlaga OK
+20/10/2017 10:41:53.059 - [INFO] - unutarnja temperatura OK
+20/10/2017 10:41:53.059 - [INFO] - kontakt OK
+20/10/2017 10:41:53.060 - [INFO] - paljenje/gašenje lampe OK
+20/10/2017 10:41:53.060 - [INFO] - dizanje/spuštanje platna za ploču OK
+20/10/2017 10:41:53.060 - [INFO] - otvaranje/zatvaranje vrata OK
+20/10/2017 10:41:53.060 - [INFO] - 
+-------------------------------------------------------
+	Inicijaliziram uređaje za FOI 1 - ulazna vrata
+-------------------------------------------------------
+20/10/2017 10:41:53.060 - [WARNING] - kontakt FAILED
+20/10/2017 10:41:53.061 - [WARNING] - svjetlo FAILED
+20/10/2017 10:41:53.061 - [WARNING] - dizanje/spuštanje platna za ploču FAILED
+20/10/2017 10:41:53.061 - [INFO] - 
+-------------------------------------------------------
+	Inicijaliziram uređaje za FOI 1 - sistem sala
+-------------------------------------------------------
+20/10/2017 10:41:53.061 - [INFO] - dim OK
+20/10/2017 10:41:53.062 - [INFO] - svjetlo OK
+20/10/2017 10:41:53.062 - [INFO] - prepreka OK
+20/10/2017 10:41:53.062 - [INFO] - prepreka OK
+20/10/2017 10:41:53.062 - [WARNING] - unutarnja temperatura FAILED
+20/10/2017 10:41:53.062 - [INFO] - otvaranje/zatvaranje vrata OK
+20/10/2017 10:41:53.063 - [INFO] - paljenje/gašenje lampe OK
+20/10/2017 10:41:53.063 - [WARNING] - snimanje kamerom FAILED
