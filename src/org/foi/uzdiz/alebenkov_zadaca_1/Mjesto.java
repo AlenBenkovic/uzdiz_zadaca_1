@@ -77,16 +77,14 @@ public class Mjesto {
                 + "\n\tRadim provjeru uređaja za " + this.naziv
                 + "\n-------------------------------------------------------------", "info");
         this.senzori.stream().map((senzor) -> {
-            this.logs.log("\nUređaj: " + senzor.naziv + "\nStatus: " + senzor.getStatus() + " (neuspješne provjere: " + senzor.neuspjesneProvjere + ")\n"
-                    + "Vrjednost: " + senzor.getVrijednost() + "\n----------", "info");
+            senzor.provjera();
             return senzor;
         }).filter((senzor) -> (senzor.neuspjesneProvjere == 3)).forEachOrdered((senzor) -> {
             uredjajiZamjena.add(senzor);
         });
 
         this.aktuatori.stream().map((aktuator) -> {
-            this.logs.log("\nUređaj: " + aktuator.naziv + "\nStatus: " + aktuator.getStatus() + " (neuspješne provjere: " + aktuator.neuspjesneProvjere + ")\n"
-                    + "Vrjednost: " + aktuator.getVrijednost() + "\n----------", "info");
+            aktuator.provjera();
             return aktuator;
         }).filter((aktuator) -> (aktuator.neuspjesneProvjere == 3)).forEachOrdered((aktuator) -> {
             uredjajiZamjena.add(aktuator);
