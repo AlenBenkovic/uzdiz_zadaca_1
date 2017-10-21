@@ -5,7 +5,6 @@
  */
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
-
 /**
  *
  * @author abenkovic
@@ -16,15 +15,19 @@ public class Alebenkov_zadaca_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // builder pattern nepotreban ali za probu malo :)
-        ToF tof = new ToF.ToFBuilder(args)
-                .postaviUredjaje()
-                .inicijalizacija()
-                .build();
+        if (args.length != 8) {
+            System.out.println("Broj parametara nije valjan!");
+            System.exit(0);
+        } else {
+            ToF tof = new ToF.ToFBuilder(args)
+                    .postaviUredjaje()
+                    .inicijalizacija()
+                    .build();
+            
+            tof.radiProvjere();
+            
+        }
         
-        tof.radiProvjere();
     }
     
-
-
 }
