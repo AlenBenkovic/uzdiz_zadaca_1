@@ -5,10 +5,11 @@
  */
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
+import org.foi.uzdiz.alebenkov_zadaca_1.AbstractFactory.ToFFactory;
+import org.foi.uzdiz.alebenkov_zadaca_1.AbstractFactory.AbstractFactory;
 import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 import java.util.HashMap;
 import java.util.Map;
-import static jdk.nashorn.internal.objects.NativeArray.map;
 
 /**
  *
@@ -32,7 +33,6 @@ public class ToF {
                 try {
                     i++;
                     Thread.sleep(Integer.parseInt(this.args[5]) * 1000);
-                    System.out.println("Dretva nesta radi...");
 
                     for (Mjesto mjesto : this.mjesta.values()) {
                         mjesto.provjeriUredjaje(this.args[4]);
@@ -53,11 +53,11 @@ public class ToF {
     public void statistika() {
         for (Mjesto mjesto : this.mjesta.values()) {
             String log = "\n-------------------------------------------------------------"
-                        + "\n\tStatistika za " + mjesto.naziv
-                        + "\n-------------------------------------------------------------\n";
+                    + "\n\tStatistika za " + mjesto.naziv
+                    + "\n-------------------------------------------------------------\n";
             for (Map.Entry<String, Integer> entry : mjesto.statistikaMjesta.entrySet()) {
-                
-                       log = log + entry.getKey() + ": " + entry.getValue() + "\n";
+
+                log = log + entry.getKey() + ": " + entry.getValue() + "\n";
             }
             this.logs.log(log, "info");
         }
@@ -75,10 +75,10 @@ public class ToF {
         }
 
         public ToFBuilder postaviUredjaje() {
-            AbstractFactory factory = new ToFFactory();
-            factory.ucitajPopisUredjaja(this.args[2], true); // ucitavam popis senzora
-            factory.ucitajPopisUredjaja(this.args[3], false); // ucitavam popis aktuatora
-            this.mjesta = factory.kreirajMjesta(this.args[1]); // kreiram mjesta i dodjeljujem uredjaje
+            AbstractFactory factory = new ToFFactory(this.args);
+            factory.ucitajPopisUredjaja(true); // ucitavam popis senzora
+            factory.ucitajPopisUredjaja(false); // ucitavam popis aktuatora
+            this.mjesta = factory.kreirajMjesta(); // kreiram mjesta i dodjeljujem uredjaje
             return this;
         }
 
@@ -116,11 +116,6 @@ public class ToF {
         }
 
         public ToF build() {
-            System.out.println("Pokrecem dretvu...");
-            /*
-            
-            
-             */
             return new ToF(this);
         }
 

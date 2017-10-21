@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.foi.uzdiz.alebenkov_zadaca_1;
+package org.foi.uzdiz.alebenkov_zadaca_1.AbstractFactory;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,6 +11,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
+import org.foi.uzdiz.alebenkov_zadaca_1.Aktuator;
+import org.foi.uzdiz.alebenkov_zadaca_1.Mjesto;
+import org.foi.uzdiz.alebenkov_zadaca_1.Senzor;
+import org.foi.uzdiz.alebenkov_zadaca_1.Uredjaj;
 import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 
 /**
@@ -25,9 +29,10 @@ public class ToFFactory implements AbstractFactory {
     ArrayList<String[]> popisSenzora = new ArrayList<>();
     ArrayList<String[]> popisAktuatora = new ArrayList<>();
     FoiLogger logs = FoiLogger.getInstance();
+    String[] args = null;
 
-    public ToFFactory() {
-        System.out.println("Konstruktor ToF Factory-a");
+    public ToFFactory(String[] args) {
+        this.args = args;
 
     }
 
@@ -35,15 +40,11 @@ public class ToFFactory implements AbstractFactory {
     public Mjesto kreirajMjesto(String[] podaciMjesta) {
         Mjesto mjesto = new Mjesto(podaciMjesta[0], Integer.parseInt(podaciMjesta[1]), Integer.parseInt(podaciMjesta[2]), Integer.parseInt(podaciMjesta[3]));
         for (int i = 0; i < mjesto.brojSenzora; i++) {
-
             mjesto.setSenzor(this.dohvatiRandomSenzor(mjesto.tip));
-
         }
 
         for (int i = 0; i < mjesto.brojAktuatora; i++) {
-
             mjesto.setAktuator(this.dohvatiRandomAktuator(mjesto.tip));
-
         }
         return mjesto;
     }
@@ -59,9 +60,9 @@ public class ToFFactory implements AbstractFactory {
     }
 
     @Override
-    public HashMap<String, Mjesto> kreirajMjesta(String lokacija) {
+    public HashMap<String, Mjesto> kreirajMjesta() {
         try {
-            FileReader fr = new FileReader(lokacija);
+            FileReader fr = new FileReader(this.args[1]);
             BufferedReader br = new BufferedReader(fr);
             HashMap<String, Mjesto> mjesta = new HashMap<>();
             String s;
@@ -85,44 +86,9 @@ public class ToFFactory implements AbstractFactory {
     }
 
     @Override
-    public ArrayList<Uredjaj> kreirajUredjaje(String lokacija, boolean senzor) {
+    public ArrayList<String[]> ucitajPopisUredjaja(boolean isSenzor) {
         try {
-            FileReader fr = new FileReader(lokacija);
-            BufferedReader br = new BufferedReader(fr);
-            ArrayList<Uredjaj> uredjaji = new ArrayList<Uredjaj>();
-            String s;
-            int brojAtributa = 0;
-            while ((s = br.readLine()) != null) {
-                String[] podatak = s.trim().split(";");
-                if (brojAtributa == 0) { //prva linija je sam opis podataka i ona je mjerodavna za broj atributa
-                    brojAtributa = podatak.length;
-                } else if (podatak.length == brojAtributa || podatak.length == brojAtributa - 1) {
-                    if (senzor) {
-                        Senzor senzorTmp = this.kreirajSenzor(podatak);
-                        uredjaji.add(senzorTmp);
-                        this.senzori.add(senzorTmp);
-
-                    } else {
-                        Aktuator aktuatorTmp = this.kreirajAktuator(podatak);
-                        uredjaji.add(aktuatorTmp);
-                        this.aktuatori.add(aktuatorTmp);
-                    }
-                } else {
-                    //ne valja ispisi poruku i spremi
-                }
-            }
-            return uredjaji;
-        } catch (IOException e) {
-            System.out.println("Greska prilikom citanja datoteke: " + e.toString());
-            return null;
-        }
-
-    }
-
-    @Override
-    public ArrayList<String[]> ucitajPopisUredjaja(String lokacija, boolean isSenzor) {
-        try {
-            FileReader fr = new FileReader(lokacija);
+            FileReader fr = new FileReader(isSenzor ? this.args[2] : this.args[3]);
             BufferedReader br = new BufferedReader(fr);
             ArrayList<String[]> uredjaji = new ArrayList<>();
             String s;

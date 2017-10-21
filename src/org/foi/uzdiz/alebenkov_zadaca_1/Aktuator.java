@@ -16,6 +16,7 @@ public class Aktuator extends Uredjaj {
 
     FoiLogger logs = FoiLogger.getInstance();
     boolean gore = true;
+    String log = null;
 
     public Aktuator(String naziv, int tip, int vrsta, float min, float max, String komentar) {
         super(naziv, tip, vrsta, min, max, komentar);
@@ -23,14 +24,22 @@ public class Aktuator extends Uredjaj {
 
     @Override
     public void provjera() {
+        int status = this.getStatus();
+        this.log = "\nUređaj: " + this.naziv + "\nStatus: " + status + " (neuspješne provjere: " + this.neuspjesneProvjere + ")\n";
+                
+        if (status > 0) {
+            this.log = log + "Vrijednost: " + this.getVrijednost();
+            this.obaviRadnju();
 
-        this.logs.log("\nUređaj: " + this.naziv + "\nStatus: " + super.getStatus() + " (neuspješne provjere: " + this.neuspjesneProvjere + ")\n"
-                + "Vrijednost: " + super.getVrijednost(), "info");
-        this.obaviRadnju();
+        } else {
+            this.log = log + "Vrijednost: nepoznato";
+            this.log = log + "\nRadnju nije moguće obaviti." + "\n----------";
+
+        }
+        this.logs.log(log, "info");
     }
 
     public void obaviRadnju() {
-        this.logs.log("\nAktuator " + this.naziv + " izvršava radnju" + "\n----------", "info");
         switch (this.vrsta) {
             case 0:
             case 1:
@@ -52,7 +61,10 @@ public class Aktuator extends Uredjaj {
                 } else {
                     this.vrijednost = 1;
                 }
+
         }
+        this.log = log + "\nAktuator izvršava radnju.\nNova vrijednost: " + this.getVrijednost() + "\n----------";
+
     }
 
 }

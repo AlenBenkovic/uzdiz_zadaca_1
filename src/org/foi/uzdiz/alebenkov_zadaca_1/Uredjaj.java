@@ -49,18 +49,17 @@ public abstract class Uredjaj implements Cloneable {
         
     }
 
-    public String getStatus() {
+    public int getStatus() {
         Random rn = new Random();
         int random = rn.nextInt(101);
         if (random >= 90) {
             this.neuspjesneProvjere++;
 
         }
-        return random < 90? "OK" : "FAILED";
+        return random < 90? 1 : 0;
     }
 
     public String getVrijednost() {
-        this.vrijednost = this.kreirajRandomVrijednost(this.min, this.max);
         switch (this.vrsta) {
             case 0:
                 return String.valueOf((int) this.vrijednost);
