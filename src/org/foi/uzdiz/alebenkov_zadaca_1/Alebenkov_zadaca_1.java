@@ -21,6 +21,8 @@ public class Alebenkov_zadaca_1 {
                 .postaviUredjaje()
                 .inicijalizacija()
                 .build();
+        
+        tof.radiProvjere();
     }
     
 

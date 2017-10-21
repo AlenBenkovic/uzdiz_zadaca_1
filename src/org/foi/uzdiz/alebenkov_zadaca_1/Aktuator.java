@@ -25,12 +25,12 @@ public class Aktuator extends Uredjaj {
     public void provjera() {
 
         this.logs.log("\nUređaj: " + this.naziv + "\nStatus: " + super.getStatus() + " (neuspješne provjere: " + this.neuspjesneProvjere + ")\n"
-                + "Vrijednost: " + super.getVrijednost() + "\n----------", "info");
+                + "Vrijednost: " + super.getVrijednost(), "info");
         this.obaviRadnju();
     }
 
     public void obaviRadnju() {
-        this.logs.log("Aktuator izvršava radnju", "info");
+        this.logs.log("\nAktuator " + this.naziv + " izvršava radnju" + "\n----------", "info");
         switch (this.vrsta) {
             case 0:
             case 1:
@@ -53,12 +53,6 @@ public class Aktuator extends Uredjaj {
                     this.vrijednost = 1;
                 }
         }
-    }
-
-    public float kreirajRandomVrijednost(float min, float max) {
-        Random r = new Random();
-        float R = (float) r.nextInt((int) max + 1 - (int) min) + min;
-        return R;
     }
 
 }

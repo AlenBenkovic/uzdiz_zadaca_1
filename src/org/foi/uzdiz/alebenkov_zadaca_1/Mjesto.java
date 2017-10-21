@@ -7,6 +7,7 @@ package org.foi.uzdiz.alebenkov_zadaca_1;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Random;
 import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
@@ -24,32 +25,52 @@ public class Mjesto {
     public ArrayList<Senzor> senzori = new ArrayList<>();
     public ArrayList<Aktuator> aktuatori = new ArrayList<>();
     FoiLogger logs = FoiLogger.getInstance();
+    HashMap<String, Integer> statistikaMjesta = new HashMap<String, Integer>();
 
     public Mjesto(String naziv, int tip, int brojSenzora, int brojAktuatora) {
         this.naziv = naziv;
         this.tip = tip;
         this.brojSenzora = brojSenzora;
         this.brojAktuatora = brojAktuatora;
+        this.statistikaMjesta.put("Ukupan broj senzora", this.brojSenzora);
+        this.statistikaMjesta.put("Ukupan broj aktuatora", this.brojAktuatora);
+        this.statistikaMjesta.put("Broj senzora koji nisu prošli inicijalizaciju", 0);
+        this.statistikaMjesta.put("Broj aktuatora koji nisu prošli inicijalizaciju", 0);
+        this.statistikaMjesta.put("Broj dodanih senzora", 0);
+        this.statistikaMjesta.put("Broj dodanih aktuatora", 0);
+        this.statistikaMjesta.put("Broj uklonjenih senzora", 0);
+        this.statistikaMjesta.put("Broj uklonjenih aktuatora", 0);
     }
 
     public void setSenzor(Senzor senzor) {
         this.logs.log("Postavljam senzor " + senzor.naziv, "info");
         this.senzori.add(senzor);
+        int tmp = this.statistikaMjesta.get("Broj dodanih senzora");
+        this.statistikaMjesta.put("Broj dodanih senzora", tmp + 1);
+
     }
 
     public void setAktuator(Aktuator aktuator) {
         this.logs.log("Postavljam aktuator " + aktuator.naziv, "info");
         this.aktuatori.add(aktuator);
+        int tmp = this.statistikaMjesta.get("Broj dodanih aktuatora");
+        this.statistikaMjesta.put("Broj dodanih aktuatora", tmp + 1);
+
     }
 
     public void removeSenzor(Senzor senzor) {
         this.logs.log("Uklanjam senzor " + senzor.naziv, "info");
         this.senzori.remove(senzor);
+        int tmp = this.statistikaMjesta.get("Broj uklonjenih senzora");
+        this.statistikaMjesta.put("Broj uklonjenih senzora", tmp + 1);
+
     }
 
     public void removeAktuator(Aktuator aktuator) {
         this.logs.log("Uklanjam aktuator " + aktuator.naziv, "info");
         this.aktuatori.remove(aktuator);
+        int tmp = this.statistikaMjesta.get("Broj uklonjenih aktuatora");
+        this.statistikaMjesta.put("Broj uklonjenih aktuatora", tmp + 1);
     }
 
     public void makniOnemogucene() {
@@ -58,6 +79,8 @@ public class Mjesto {
             if (next.onemogucen) {
                 this.logs.log("Uklanjam senzor: " + next.naziv, "info");
                 iterator.remove();
+                int tmp = this.statistikaMjesta.get("Broj senzora koji nisu prošli inicijalizaciju");
+                this.statistikaMjesta.put("Broj senzora koji nisu prošli inicijalizaciju", tmp + 1);
             }
 
         }
@@ -67,6 +90,8 @@ public class Mjesto {
             if (next.onemogucen) {
                 this.logs.log("Uklanjam aktuator: " + next.naziv, "info");
                 iterator.remove();
+                int tmp = this.statistikaMjesta.get("Broj aktuatora koji nisu prošli inicijalizaciju");
+                this.statistikaMjesta.put("Broj aktuatora koji nisu prošli inicijalizaciju", tmp + 1);
             }
 
         }
@@ -125,6 +150,39 @@ public class Mjesto {
                 });
 
                 aktuatoriRandom.forEach((Integer index) -> {
+                    Aktuator trenutniAktuator = this.aktuatori.get(index);
+                    trenutniAktuator.provjera();
+                    if (trenutniAktuator.neuspjesneProvjere == 3) {
+                        uredjajiZamjena.add(trenutniAktuator);
+                    }
+                });
+
+                break;
+
+            case "obrnuto":
+                this.logs.log("***Radim obrnutu provjeru***", "info");
+
+                ArrayList<Integer> senzoriObrnuto = new ArrayList<>(this.senzori.size());
+                ArrayList<Integer> aktuatoriObrnuto = new ArrayList<>(this.aktuatori.size());
+
+                for (int i = 0; i < senzori.size(); i++) {
+                    senzoriObrnuto.add(i);
+                }
+                for (int i = 0; i < aktuatori.size(); i++) {
+                    aktuatoriObrnuto.add(i);
+                }
+                Collections.reverse(senzoriObrnuto);
+                Collections.reverse(aktuatoriObrnuto);
+
+                senzoriObrnuto.forEach((Integer index) -> {
+                    Senzor trenutniSenzor = this.senzori.get(index);
+                    trenutniSenzor.provjera();
+                    if (trenutniSenzor.neuspjesneProvjere == 3) {
+                        uredjajiZamjena.add(trenutniSenzor);
+                    }
+                });
+
+                aktuatoriObrnuto.forEach((Integer index) -> {
                     Aktuator trenutniAktuator = this.aktuatori.get(index);
                     trenutniAktuator.provjera();
                     if (trenutniAktuator.neuspjesneProvjere == 3) {
