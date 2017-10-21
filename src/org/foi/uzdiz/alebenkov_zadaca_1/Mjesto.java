@@ -6,7 +6,9 @@
 package org.foi.uzdiz.alebenkov_zadaca_1;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
+import java.util.Random;
 import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 
 /**
@@ -70,25 +72,68 @@ public class Mjesto {
         }
     }
 
-    public void provjeriUredjaje() {
+    public int kreirajRandomVrijednost(int min, int max) {
+        Random r = new Random();
+        int R = r.nextInt(max + 1 - min) + min;
+        return R;
+    }
+
+    public void provjeriUredjaje(String algoritam) {
         ArrayList<Uredjaj> uredjajiZamjena = new ArrayList<>();
 
         this.logs.log("\n-------------------------------------------------------------"
                 + "\n\tRadim provjeru uređaja za " + this.naziv
                 + "\n-------------------------------------------------------------", "info");
-        this.senzori.stream().map((senzor) -> {
-            senzor.provjera();
-            return senzor;
-        }).filter((senzor) -> (senzor.neuspjesneProvjere == 3)).forEachOrdered((senzor) -> {
-            uredjajiZamjena.add(senzor);
-        });
+        switch (algoritam) {
+            case "slijedno":
+                this.logs.log("***Radim slijednu provjeru***", "info");
+                this.senzori.stream().map((senzor) -> {
+                    senzor.provjera();
+                    return senzor;
+                }).filter((senzor) -> (senzor.neuspjesneProvjere == 3)).forEachOrdered((senzor) -> {
+                    uredjajiZamjena.add(senzor);
+                });
 
-        this.aktuatori.stream().map((aktuator) -> {
-            aktuator.provjera();
-            return aktuator;
-        }).filter((aktuator) -> (aktuator.neuspjesneProvjere == 3)).forEachOrdered((aktuator) -> {
-            uredjajiZamjena.add(aktuator);
-        });
+                this.aktuatori.stream().map((aktuator) -> {
+                    aktuator.provjera();
+                    return aktuator;
+                }).filter((aktuator) -> (aktuator.neuspjesneProvjere == 3)).forEachOrdered((aktuator) -> {
+                    uredjajiZamjena.add(aktuator);
+                });
+                break;
+            case "random":
+                this.logs.log("***Radim random provjeru***", "info");
+
+                ArrayList<Integer> senzoriRandom = new ArrayList<>(this.senzori.size());
+                ArrayList<Integer> aktuatoriRandom = new ArrayList<>(this.aktuatori.size());
+
+                for (int i = 0; i < senzori.size(); i++) {
+                    senzoriRandom.add(i);
+                }
+                for (int i = 0; i < aktuatori.size(); i++) {
+                    aktuatoriRandom.add(i);
+                }
+                Collections.shuffle(senzoriRandom);
+                Collections.shuffle(aktuatoriRandom);
+
+                senzoriRandom.forEach((Integer index) -> {
+                    Senzor trenutniSenzor = this.senzori.get(index);
+                    trenutniSenzor.provjera();
+                    if (trenutniSenzor.neuspjesneProvjere == 3) {
+                        uredjajiZamjena.add(trenutniSenzor);
+                    }
+                });
+
+                aktuatoriRandom.forEach((Integer index) -> {
+                    Aktuator trenutniAktuator = this.aktuatori.get(index);
+                    trenutniAktuator.provjera();
+                    if (trenutniAktuator.neuspjesneProvjere == 3) {
+                        uredjajiZamjena.add(trenutniAktuator);
+                    }
+                });
+
+                break;
+        }
 
         if (!uredjajiZamjena.isEmpty()) {
             uredjajiZamjena.forEach(stari -> {

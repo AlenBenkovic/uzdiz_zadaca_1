@@ -85,7 +85,7 @@ public class ToF {
                         System.out.println("Dretva nesta radi...");
 
                         for (Mjesto mjesto : this.mjesta.values()) {
-                           mjesto.provjeriUredjaje();
+                           mjesto.provjeriUredjaje(this.args[4]);
                         }
 
                         
