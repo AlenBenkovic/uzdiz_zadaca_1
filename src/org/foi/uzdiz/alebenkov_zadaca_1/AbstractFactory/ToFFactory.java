@@ -14,7 +14,6 @@ import java.util.Random;
 import org.foi.uzdiz.alebenkov_zadaca_1.Aktuator;
 import org.foi.uzdiz.alebenkov_zadaca_1.Mjesto;
 import org.foi.uzdiz.alebenkov_zadaca_1.Senzor;
-import org.foi.uzdiz.alebenkov_zadaca_1.Uredjaj;
 import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 
 /**
@@ -24,8 +23,6 @@ import org.foi.uzdiz.alebenkov_zadaca_1.logs.FoiLogger;
 public class ToFFactory implements AbstractFactory {
 
     HashMap<String, String[]> mjesta;
-    ArrayList<Senzor> senzori = new ArrayList<>();
-    ArrayList<Aktuator> aktuatori = new ArrayList<>();
     ArrayList<String[]> popisSenzora = new ArrayList<>();
     ArrayList<String[]> popisAktuatora = new ArrayList<>();
     FoiLogger logs = FoiLogger.getInstance();
@@ -40,11 +37,11 @@ public class ToFFactory implements AbstractFactory {
     public Mjesto kreirajMjesto(String[] podaciMjesta) {
         Mjesto mjesto = new Mjesto(podaciMjesta[0], Integer.parseInt(podaciMjesta[1]), Integer.parseInt(podaciMjesta[2]), Integer.parseInt(podaciMjesta[3]));
         for (int i = 0; i < mjesto.brojSenzora; i++) {
-            mjesto.setSenzor(this.dohvatiRandomSenzor(mjesto.tip));
+            mjesto.setUredjaj(this.dohvatiRandomSenzor(mjesto.tip));
         }
 
         for (int i = 0; i < mjesto.brojAktuatora; i++) {
-            mjesto.setAktuator(this.dohvatiRandomAktuator(mjesto.tip));
+            mjesto.setUredjaj(this.dohvatiRandomAktuator(mjesto.tip));
         }
         return mjesto;
     }
@@ -72,10 +69,11 @@ public class ToFFactory implements AbstractFactory {
                 if (brojAtributa == 0) { //prva linija je sam opis podataka i ona je mjerodavna za broj atributa
                     brojAtributa = podatak.length;
                 } else if (podatak.length == brojAtributa) {
+                    this.logs.log("Kreiram mjesto " + podatak[0] + " .", "info");
                     mjesta.put(podatak[0], this.kreirajMjesto(podatak));
 
                 } else {
-                    //ne valja ispisi poruku i spremi
+                    // zapis nije valjan
                 }
             }
             return mjesta;
@@ -106,7 +104,7 @@ public class ToFFactory implements AbstractFactory {
                     }
 
                 } else {
-                    //ne valja ispisi poruku i spremi
+                     this.logs.log("Format zapisa za " + podatak[0] + " nije valjan.", "warning");
                 }
             }
             return uredjaji;

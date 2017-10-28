@@ -22,8 +22,7 @@ public class Mjesto {
     public int tip;
     public int brojSenzora;
     public int brojAktuatora;
-    public ArrayList<Senzor> senzori = new ArrayList<>();
-    public ArrayList<Aktuator> aktuatori = new ArrayList<>();
+    public ArrayList<Uredjaj> uredjaji = new ArrayList<>();
     FoiLogger logs = FoiLogger.getInstance();
     HashMap<String, Integer> statistikaMjesta = new HashMap<String, Integer>();
 
@@ -42,56 +41,47 @@ public class Mjesto {
         this.statistikaMjesta.put("Broj uklonjenih aktuatora", 0);
     }
 
-    public void setSenzor(Senzor senzor) {
-        this.logs.log("Postavljam senzor " + senzor.naziv, "info");
-        this.senzori.add(senzor);
-        int tmp = this.statistikaMjesta.get("Broj dodanih senzora");
-        this.statistikaMjesta.put("Broj dodanih senzora", tmp + 1);
-
+    public void setUredjaj(Uredjaj uredjaj) {
+        this.logs.log("Postavljam uredjaj " + uredjaj.naziv, "info");
+        this.uredjaji.add(uredjaj);
+        if (uredjaj instanceof Senzor) {
+            int tmp = this.statistikaMjesta.get("Broj dodanih senzora");
+            this.statistikaMjesta.put("Broj dodanih senzora", tmp + 1);
+        } else {
+            int tmp = this.statistikaMjesta.get("Broj dodanih aktuatora");
+            this.statistikaMjesta.put("Broj dodanih aktuatora", tmp + 1);
+        }
     }
 
-    public void setAktuator(Aktuator aktuator) {
-        this.logs.log("Postavljam aktuator " + aktuator.naziv, "info");
-        this.aktuatori.add(aktuator);
-        int tmp = this.statistikaMjesta.get("Broj dodanih aktuatora");
-        this.statistikaMjesta.put("Broj dodanih aktuatora", tmp + 1);
-
-    }
-
-    public void removeSenzor(Senzor senzor) {
-        this.logs.log("Uklanjam senzor " + senzor.naziv, "info");
-        this.senzori.remove(senzor);
-        int tmp = this.statistikaMjesta.get("Broj uklonjenih senzora");
-        this.statistikaMjesta.put("Broj uklonjenih senzora", tmp + 1);
-
-    }
-
-    public void removeAktuator(Aktuator aktuator) {
-        this.logs.log("Uklanjam aktuator " + aktuator.naziv, "info");
-        this.aktuatori.remove(aktuator);
-        int tmp = this.statistikaMjesta.get("Broj uklonjenih aktuatora");
-        this.statistikaMjesta.put("Broj uklonjenih aktuatora", tmp + 1);
-    }
-
-    public void makniOnemogucene() {
-        for (Iterator<Senzor> iterator = senzori.iterator(); iterator.hasNext();) {
-            Senzor next = iterator.next();
-            if (next.onemogucen) {
-                this.logs.log("Uklanjam senzor: " + next.naziv, "info");
-                iterator.remove();
-                int tmp = this.statistikaMjesta.get("Broj senzora koji nisu prošli inicijalizaciju");
-                this.statistikaMjesta.put("Broj senzora koji nisu prošli inicijalizaciju", tmp + 1);
-            }
-
+    public void removeUredjaj(Uredjaj uredjaj) {
+        this.logs.log("Uklanjam uredjaj " + uredjaj.naziv, "info");
+        this.uredjaji.remove(uredjaj);
+        if (uredjaj instanceof Senzor) {
+            int tmp = this.statistikaMjesta.get("Broj uklonjenih senzora");
+            this.statistikaMjesta.put("Broj uklonjenih senzora", tmp + 1);
+        } else {
+            int tmp = this.statistikaMjesta.get("Broj uklonjenih aktuatora");
+            this.statistikaMjesta.put("Broj uklonjenih aktuatora", tmp + 1);
         }
 
-        for (Iterator<Aktuator> iterator = aktuatori.iterator(); iterator.hasNext();) {
-            Aktuator next = iterator.next();
+    }
+
+   
+
+    public void makniOnemogucene() {
+        for (Iterator<Uredjaj> iterator = uredjaji.iterator(); iterator.hasNext();) {
+            Uredjaj next = iterator.next();
             if (next.onemogucen) {
-                this.logs.log("Uklanjam aktuator: " + next.naziv, "info");
+                this.logs.log("Uklanjam uredjaj: " + next.naziv, "info");
                 iterator.remove();
-                int tmp = this.statistikaMjesta.get("Broj aktuatora koji nisu prošli inicijalizaciju");
-                this.statistikaMjesta.put("Broj aktuatora koji nisu prošli inicijalizaciju", tmp + 1);
+                if (next instanceof Senzor) {
+                    int tmp = this.statistikaMjesta.get("Broj senzora koji nisu prošli inicijalizaciju");
+                    this.statistikaMjesta.put("Broj senzora koji nisu prošli inicijalizaciju", tmp + 1);
+                } else {
+                    int tmp = this.statistikaMjesta.get("Broj uklonjenih aktuatora");
+                    this.statistikaMjesta.put("Broj uklonjenih aktuatora", tmp + 1);
+                }
+
             }
 
         }
@@ -112,84 +102,51 @@ public class Mjesto {
         switch (algoritam) {
             case "slijedno":
                 this.logs.log("***Radim slijednu provjeru***", "info");
-                this.senzori.stream().map((senzor) -> {
-                    senzor.provjera();
-                    return senzor;
-                }).filter((senzor) -> (senzor.neuspjesneProvjere == 3)).forEachOrdered((senzor) -> {
-                    uredjajiZamjena.add(senzor);
-                });
-
-                this.aktuatori.stream().map((aktuator) -> {
-                    aktuator.provjera();
-                    return aktuator;
-                }).filter((aktuator) -> (aktuator.neuspjesneProvjere == 3)).forEachOrdered((aktuator) -> {
-                    uredjajiZamjena.add(aktuator);
+                this.uredjaji.stream().map((uredjaj) -> {
+                    uredjaj.provjera();
+                    return uredjaj;
+                }).filter((uredjaj) -> (uredjaj.neuspjesneProvjere == 3)).forEachOrdered((uredjaj) -> {
+                    uredjajiZamjena.add(uredjaj);
                 });
                 break;
             case "random":
                 this.logs.log("***Radim random provjeru***", "info");
 
-                ArrayList<Integer> senzoriRandom = new ArrayList<>(this.senzori.size());
-                ArrayList<Integer> aktuatoriRandom = new ArrayList<>(this.aktuatori.size());
+                ArrayList<Integer> uredjajiRandom = new ArrayList<>(this.uredjaji.size());
 
-                for (int i = 0; i < senzori.size(); i++) {
-                    senzoriRandom.add(i);
+                for (int i = 0; i < uredjaji.size(); i++) {
+                    uredjajiRandom.add(i);
                 }
-                for (int i = 0; i < aktuatori.size(); i++) {
-                    aktuatoriRandom.add(i);
-                }
-                Collections.shuffle(senzoriRandom);
-                Collections.shuffle(aktuatoriRandom);
+ 
+                Collections.shuffle(uredjajiRandom);
 
-                senzoriRandom.forEach((Integer index) -> {
-                    Senzor trenutniSenzor = this.senzori.get(index);
-                    trenutniSenzor.provjera();
-                    if (trenutniSenzor.neuspjesneProvjere == 3) {
-                        uredjajiZamjena.add(trenutniSenzor);
+                uredjajiRandom.forEach((Integer index) -> {
+                    Uredjaj trenutniUredjaj = this.uredjaji.get(index);
+                    trenutniUredjaj.provjera();
+                    if (trenutniUredjaj.neuspjesneProvjere == 3) {
+                        uredjajiZamjena.add(trenutniUredjaj);
                     }
                 });
-
-                aktuatoriRandom.forEach((Integer index) -> {
-                    Aktuator trenutniAktuator = this.aktuatori.get(index);
-                    trenutniAktuator.provjera();
-                    if (trenutniAktuator.neuspjesneProvjere == 3) {
-                        uredjajiZamjena.add(trenutniAktuator);
-                    }
-                });
-
                 break;
 
             case "obrnuto":
                 this.logs.log("***Radim obrnutu provjeru***", "info");
 
-                ArrayList<Integer> senzoriObrnuto = new ArrayList<>(this.senzori.size());
-                ArrayList<Integer> aktuatoriObrnuto = new ArrayList<>(this.aktuatori.size());
+                ArrayList<Integer> uredjajiObrnuto = new ArrayList<>(this.uredjaji.size());
 
-                for (int i = 0; i < senzori.size(); i++) {
-                    senzoriObrnuto.add(i);
+                for (int i = 0; i < uredjaji.size(); i++) {
+                    uredjajiObrnuto.add(i);
                 }
-                for (int i = 0; i < aktuatori.size(); i++) {
-                    aktuatoriObrnuto.add(i);
-                }
-                Collections.reverse(senzoriObrnuto);
-                Collections.reverse(aktuatoriObrnuto);
 
-                senzoriObrnuto.forEach((Integer index) -> {
-                    Senzor trenutniSenzor = this.senzori.get(index);
-                    trenutniSenzor.provjera();
-                    if (trenutniSenzor.neuspjesneProvjere == 3) {
-                        uredjajiZamjena.add(trenutniSenzor);
+                Collections.reverse(uredjajiObrnuto);
+
+                uredjajiObrnuto.forEach((Integer index) -> {
+                    Uredjaj trenutniUredjaj = this.uredjaji.get(index);
+                    trenutniUredjaj.provjera();
+                    if (trenutniUredjaj.neuspjesneProvjere == 3) {
+                        uredjajiZamjena.add(trenutniUredjaj);
                     }
                 });
-
-                aktuatoriObrnuto.forEach((Integer index) -> {
-                    Aktuator trenutniAktuator = this.aktuatori.get(index);
-                    trenutniAktuator.provjera();
-                    if (trenutniAktuator.neuspjesneProvjere == 3) {
-                        uredjajiZamjena.add(trenutniAktuator);
-                    }
-                });
-
                 break;
         }
 
@@ -199,13 +156,8 @@ public class Mjesto {
                         + "\n\tRadim zamjene uređaja u " + this.naziv
                         + "\n-------------------------------------------------------------", "info");
                 Uredjaj noviUredjaj = (Uredjaj) stari.clone();
-                if (stari instanceof Senzor) {
-                    this.removeSenzor((Senzor) stari);
-                    this.setSenzor((Senzor) noviUredjaj);
-                } else if (stari instanceof Aktuator) {
-                    this.removeAktuator((Aktuator) stari);
-                    this.setAktuator((Aktuator) noviUredjaj);
-                }
+                this.removeUredjaj(stari);
+                this.setUredjaj(noviUredjaj);
                 noviUredjaj.inicijalizacija();
 
             });
